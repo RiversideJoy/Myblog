@@ -17,7 +17,7 @@ git add -A
 git commit -m "testPath"
 
 # 如果发布到 https://<USERNAME>.github.io
-git push -f git@github.com:MaiRen1997/vuepress.git master
+git push -f git@github.com:MaiRen1997/Myblog.git master:gh-pages
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
