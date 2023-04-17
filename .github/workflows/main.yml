@@ -12,21 +12,16 @@ jobs:
   build-and-deploy:
     # 服务器环境：最新版 Ubuntu
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: '14.17.x'
     steps:
       # 拉取代码
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v1
-        with:
-          node-version: ${{ matrix.node-version }}
         # with:
         #   persist-credentials: false
       # 生成静态文件
       - name: Build
+        with:
+          node-version: '14.x'
         run: node -v && npm install && npm run build
 
       # 部署到 GitHub Pages
