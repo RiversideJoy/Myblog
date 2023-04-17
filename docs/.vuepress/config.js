@@ -1,7 +1,7 @@
 const nav = require('./nav.js')
 module.exports = {
   // base: './Myblog',
-  base: '/',
+  base: './',
   title: "麦仁博客",
   description: "记录前端知识、读书学习",
   dest: 'docs/.vuepress/dist/',
