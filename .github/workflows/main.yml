@@ -12,14 +12,15 @@ jobs:
   build-and-deploy:
     # 服务器环境：最新版 Ubuntu
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: '14.x'
     steps:
       # 拉取代码
       - name: Checkout
-        - uses: actions/checkout@v2
-        - uses: actions/setup-node@v3
+        uses: actions/checkout@v2
         with:
         #   persist-credentials: false
-          node-version: '14'
       # 生成静态文件
       - name: Build
         run: node -v && npm install && npm run build
