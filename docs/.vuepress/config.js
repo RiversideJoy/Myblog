@@ -4,6 +4,7 @@ module.exports = {
   // base: '/',
   title: "麦仁博客",
   description: "记录前端知识、读书学习",
+  dest: 'docs/.vuepress/dist/',
   markdown: {
     lineNumbers: true,
   },
