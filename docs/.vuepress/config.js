@@ -1,6 +1,6 @@
 const nav = require('./nav.js')
 module.exports = {
-  base: './',
+  base: '/Myblog/',
   // base: './',
   title: "麦仁博客",
   description: "记录前端知识、读书学习",
