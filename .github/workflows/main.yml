@@ -28,10 +28,6 @@ jobs:
       # 生成静态文件
       - name: Build
         run: node -v && npm install && npm run build
-      - name: loadCss
-        load_paths:
-        - _sass
-        - node_modules
       # 部署到 GitHub Pages
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
