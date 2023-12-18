@@ -14,7 +14,7 @@ cd docs/.vuepress/dist
 
 git init
 git add -A
-git commit -m "testPath"
+git commit -m "initPath"
 
 # 如果发布到 https://<USERNAME>.github.io
 git push -f git@github.com:MaiRen1997/Myblog.git master:gh-pages
