@@ -1,8 +1,8 @@
 const nav = require('./nav.js')
 module.exports = {
-  base: '/Myblog/',
+  // base: '/Myblog/',
   // base: './', // 提交时取消这行注释
-  // base: '/', // 本地运行时，取消这行注释
+  base: '/', // 本地运行时，取消这行注释
   title: "麦仁博客",
   description: "记录前端知识、读书学习",
   dest: 'docs/.vuepress/dist/',
