@@ -6,19 +6,31 @@ module.exports = [
     items: [
       // 说明：以下所有link的值只是在相应md文件头部定义的永久链接（不是什么特殊编码）。另外，注意结尾是有斜杠的
       {
-        text: '前端文章',
+        text: 'javaScript笔记精选',
         items: [
-          { text: 'JavaScript', link: '/pages/8143cc480faf9a11/' },
+          { text: 'JS常用案例', link: '/pages/03dd97/' },
         ],
       },
       {
-        text: '学习笔记',
+        text: 'vue学习精选',
         items: [
-          { text: '《JavaScript教程》', link: '/note/javascript/' },
-          { text: '《JavaScript高级程序设计》', link: '/note/js/' }
+          { text: '《vue基本知识点》', link: '/pages/0082e9/' },
+          { text: '《vue3的使用》', link: '/pages/24e9bb/' }
         ],
       },
     ],
+  },
+  {
+    text: '后端',
+    link: '/backEnd/',
+  },
+  {
+    text: '英语',
+    link: '/englishLife/',
+  },
+  {
+    text: '读书',
+    link: '/bookLife/',
   },
   {
     text: '页面',
