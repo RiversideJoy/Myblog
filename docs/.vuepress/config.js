@@ -21,6 +21,11 @@ module.exports = {
   },
   // 使目录栏支持h2~h6
   markdown: {
-    extractHeaders: [ 'h2', 'h3', 'h4', 'h5', 'h6' ]
-  }
+    lineNumbers: true,
+    extractHeaders: ['h2', 'h3', 'h4', 'h5', 'h6'], // 提取标题到侧边栏的级别，默认['h2', 'h3']
+  },
+  // 文章默认的作者信息，(可在md文件中单独配置此信息) string | {name: string, link?: string}
+  author: {
+    name: 'Riverside Joy' // 必需
+  },
 };
