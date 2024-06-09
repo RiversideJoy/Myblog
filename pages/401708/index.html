@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>20240608 | 麦仁博客</title>
+    <meta name="generator" content="VuePress 1.9.9">
+    
+    <meta name="description" content="记录前端知识、读书学习">
+    
+    <link rel="preload" href="/Myblog/assets/css/0.styles.baca3271.css" as="style"><link rel="preload" href="/Myblog/assets/js/app.00f57cf3.js" as="script"><link rel="preload" href="/Myblog/assets/js/2.9f56fe95.js" as="script"><link rel="preload" href="/Myblog/assets/js/262.d28d2057.js" as="script"><link rel="prefetch" href="/Myblog/assets/js/10.4e93431f.js"><link rel="prefetch" href="/Myblog/assets/js/100.897570f4.js"><link rel="prefetch" href="/Myblog/assets/js/101.00ae10ef.js"><link rel="prefetch" href="/Myblog/assets/js/102.e9add558.js"><link rel="prefetch" href="/Myblog/assets/js/103.a7a43f16.js"><link rel="prefetch" href="/Myblog/assets/js/104.6e89956e.js"><link rel="prefetch" href="/Myblog/assets/js/105.5884ed7b.js"><link rel="prefetch" href="/Myblog/assets/js/106.772851c8.js"><link rel="prefetch" href="/Myblog/assets/js/107.ca6550d0.js"><link rel="prefetch" href="/Myblog/assets/js/108.fffd260b.js"><link rel="prefetch" href="/Myblog/assets/js/109.e24aa73a.js"><link rel="prefetch" href="/Myblog/assets/js/11.f7585777.js"><link rel="prefetch" href="/Myblog/assets/js/110.2ade851c.js"><link rel="prefetch" href="/Myblog/assets/js/111.c27edfb6.js"><link rel="prefetch" href="/Myblog/assets/js/112.74c153d9.js"><link rel="prefetch" href="/Myblog/assets/js/113.6ae2aae7.js"><link rel="prefetch" href="/Myblog/assets/js/114.8a8c9803.js"><link rel="prefetch" href="/Myblog/assets/js/115.ca56461c.js"><link rel="prefetch" href="/Myblog/assets/js/116.1e7901ea.js"><link rel="prefetch" href="/Myblog/assets/js/117.6cd9c9e4.js"><link rel="prefetch" href="/Myblog/assets/js/118.20fd9f06.js"><link rel="prefetch" href="/Myblog/assets/js/119.c2f3f30c.js"><link rel="prefetch" href="/Myblog/assets/js/12.d48c2185.js"><link rel="prefetch" href="/Myblog/assets/js/120.4d834671.js"><link rel="prefetch" href="/Myblog/assets/js/121.0d5e5ca4.js"><link rel="prefetch" href="/Myblog/assets/js/122.71062cd4.js"><link rel="prefetch" href="/Myblog/assets/js/123.6b3aeaa8.js"><link rel="prefetch" href="/Myblog/assets/js/124.f5796834.js"><link rel="prefetch" href="/Myblog/assets/js/125.1aabfef8.js"><link rel="prefetch" href="/Myblog/assets/js/126.c86ce776.js"><link rel="prefetch" href="/Myblog/assets/js/127.d244f39e.js"><link rel="prefetch" href="/Myblog/assets/js/128.948f93fd.js"><link rel="prefetch" href="/Myblog/assets/js/129.a03d4c51.js"><link rel="prefetch" href="/Myblog/assets/js/13.5cb7eb24.js"><link rel="prefetch" href="/Myblog/assets/js/130.12e91ef6.js"><link rel="prefetch" href="/Myblog/assets/js/131.b15fd8a8.js"><link rel="prefetch" href="/Myblog/assets/js/132.903964b6.js"><link rel="prefetch" href="/Myblog/assets/js/133.a95c49ac.js"><link rel="prefetch" href="/Myblog/assets/js/134.198f05f5.js"><link rel="prefetch" href="/Myblog/assets/js/135.f3065c47.js"><link rel="prefetch" href="/Myblog/assets/js/136.b7fb4425.js"><link rel="prefetch" href="/Myblog/assets/js/137.58048a4e.js"><link rel="prefetch" href="/Myblog/assets/js/138.3c1db5f6.js"><link rel="prefetch" href="/Myblog/assets/js/139.e3f6c274.js"><link rel="prefetch" href="/Myblog/assets/js/14.0514f754.js"><link rel="prefetch" href="/Myblog/assets/js/140.33163e69.js"><link rel="prefetch" href="/Myblog/assets/js/141.67891e73.js"><link rel="prefetch" href="/Myblog/assets/js/142.97877a91.js"><link rel="prefetch" href="/Myblog/assets/js/143.be338671.js"><link rel="prefetch" href="/Myblog/assets/js/144.16814f63.js"><link rel="prefetch" href="/Myblog/assets/js/145.8034bee0.js"><link rel="prefetch" href="/Myblog/assets/js/146.d567c763.js"><link rel="prefetch" href="/Myblog/assets/js/147.83bb06b9.js"><link rel="prefetch" href="/Myblog/assets/js/148.a5710674.js"><link rel="prefetch" href="/Myblog/assets/js/149.4c9fb887.js"><link rel="prefetch" href="/Myblog/assets/js/15.f698fa8b.js"><link rel="prefetch" href="/Myblog/assets/js/150.7c17c847.js"><link rel="prefetch" href="/Myblog/assets/js/151.c3cb78f5.js"><link rel="prefetch" href="/Myblog/assets/js/152.28adb9a3.js"><link rel="prefetch" href="/Myblog/assets/js/153.7b77bcbb.js"><link rel="prefetch" href="/Myblog/assets/js/154.ea3a38d9.js"><link rel="prefetch" href="/Myblog/assets/js/155.653f43be.js"><link rel="prefetch" href="/Myblog/assets/js/156.e4d17bbe.js"><link rel="prefetch" href="/Myblog/assets/js/157.21cdc8c0.js"><link rel="prefetch" href="/Myblog/assets/js/158.d00a931a.js"><link rel="prefetch" href="/Myblog/assets/js/159.edde952b.js"><link rel="prefetch" href="/Myblog/assets/js/16.1a22c158.js"><link rel="prefetch" href="/Myblog/assets/js/160.853c141b.js"><link rel="prefetch" href="/Myblog/assets/js/161.956f031a.js"><link rel="prefetch" href="/Myblog/assets/js/162.d93c4f44.js"><link rel="prefetch" href="/Myblog/assets/js/163.20daa6c5.js"><link rel="prefetch" href="/Myblog/assets/js/164.218cffe4.js"><link rel="prefetch" href="/Myblog/assets/js/165.d1b00e4a.js"><link rel="prefetch" href="/Myblog/assets/js/166.1cda4f51.js"><link rel="prefetch" href="/Myblog/assets/js/167.9739656b.js"><link rel="prefetch" href="/Myblog/assets/js/168.8d3193b7.js"><link rel="prefetch" href="/Myblog/assets/js/169.5010a3c2.js"><link rel="prefetch" href="/Myblog/assets/js/17.06e7f6da.js"><link rel="prefetch" href="/Myblog/assets/js/170.fd497854.js"><link rel="prefetch" href="/Myblog/assets/js/171.70c9ba8a.js"><link rel="prefetch" href="/Myblog/assets/js/172.9038cd33.js"><link rel="prefetch" href="/Myblog/assets/js/173.ba5291be.js"><link rel="prefetch" href="/Myblog/assets/js/174.67a9ace9.js"><link rel="prefetch" href="/Myblog/assets/js/175.5173c97b.js"><link rel="prefetch" href="/Myblog/assets/js/176.0458a6f1.js"><link rel="prefetch" href="/Myblog/assets/js/177.8ee4c29c.js"><link rel="prefetch" href="/Myblog/assets/js/178.e92ecc63.js"><link rel="prefetch" href="/Myblog/assets/js/179.2f4442ef.js"><link rel="prefetch" href="/Myblog/assets/js/18.b37832fb.js"><link rel="prefetch" href="/Myblog/assets/js/180.cffcf170.js"><link rel="prefetch" href="/Myblog/assets/js/181.8bac9afa.js"><link rel="prefetch" href="/Myblog/assets/js/182.7304a4b9.js"><link rel="prefetch" href="/Myblog/assets/js/183.91bb7e4f.js"><link rel="prefetch" href="/Myblog/assets/js/184.f205740e.js"><link rel="prefetch" href="/Myblog/assets/js/185.e39ea879.js"><link rel="prefetch" href="/Myblog/assets/js/186.c58c6d3b.js"><link rel="prefetch" href="/Myblog/assets/js/187.f5330e89.js"><link rel="prefetch" href="/Myblog/assets/js/188.d0aefed0.js"><link rel="prefetch" href="/Myblog/assets/js/189.d5863730.js"><link rel="prefetch" href="/Myblog/assets/js/19.c1092391.js"><link rel="prefetch" href="/Myblog/assets/js/190.f5177517.js"><link rel="prefetch" href="/Myblog/assets/js/191.5f9a2223.js"><link rel="prefetch" href="/Myblog/assets/js/192.0e3b54b8.js"><link rel="prefetch" href="/Myblog/assets/js/193.09949b23.js"><link rel="prefetch" href="/Myblog/assets/js/194.8d2317b3.js"><link rel="prefetch" href="/Myblog/assets/js/195.8ead4045.js"><link rel="prefetch" href="/Myblog/assets/js/196.4b68311f.js"><link rel="prefetch" href="/Myblog/assets/js/197.646f3ad6.js"><link rel="prefetch" href="/Myblog/assets/js/198.2aa4c510.js"><link rel="prefetch" href="/Myblog/assets/js/199.b903a0e0.js"><link rel="prefetch" href="/Myblog/assets/js/20.607e429d.js"><link rel="prefetch" href="/Myblog/assets/js/200.a9377fb8.js"><link rel="prefetch" href="/Myblog/assets/js/201.162d2da7.js"><link rel="prefetch" href="/Myblog/assets/js/202.1450aee7.js"><link rel="prefetch" href="/Myblog/assets/js/203.aec5bbcd.js"><link rel="prefetch" href="/Myblog/assets/js/204.272eaf16.js"><link rel="prefetch" href="/Myblog/assets/js/205.6c61206f.js"><link rel="prefetch" href="/Myblog/assets/js/206.9e50046c.js"><link rel="prefetch" href="/Myblog/assets/js/207.6b30194e.js"><link rel="prefetch" href="/Myblog/assets/js/208.a813a372.js"><link rel="prefetch" href="/Myblog/assets/js/209.028efeac.js"><link rel="prefetch" href="/Myblog/assets/js/21.57b6eb6f.js"><link rel="prefetch" href="/Myblog/assets/js/210.13d385de.js"><link rel="prefetch" href="/Myblog/assets/js/211.94ee1e04.js"><link rel="prefetch" href="/Myblog/assets/js/212.ea3645e5.js"><link rel="prefetch" href="/Myblog/assets/js/213.46f2907e.js"><link rel="prefetch" href="/Myblog/assets/js/214.a9ab2707.js"><link rel="prefetch" href="/Myblog/assets/js/215.176283a3.js"><link rel="prefetch" href="/Myblog/assets/js/216.2d7badcf.js"><link rel="prefetch" href="/Myblog/assets/js/217.e039b572.js"><link rel="prefetch" href="/Myblog/assets/js/218.d7d0ec28.js"><link rel="prefetch" href="/Myblog/assets/js/219.b6feafc6.js"><link rel="prefetch" href="/Myblog/assets/js/22.a723d729.js"><link rel="prefetch" href="/Myblog/assets/js/220.618582cf.js"><link rel="prefetch" href="/Myblog/assets/js/221.03591823.js"><link rel="prefetch" href="/Myblog/assets/js/222.e93984bf.js"><link rel="prefetch" href="/Myblog/assets/js/223.ad8ed6b6.js"><link rel="prefetch" href="/Myblog/assets/js/224.c8ed3eac.js"><link rel="prefetch" href="/Myblog/assets/js/225.05463118.js"><link rel="prefetch" href="/Myblog/assets/js/226.f0d5794c.js"><link rel="prefetch" href="/Myblog/assets/js/227.8b0804df.js"><link rel="prefetch" href="/Myblog/assets/js/228.2ffa8e1d.js"><link rel="prefetch" href="/Myblog/assets/js/229.b1d8104b.js"><link rel="prefetch" href="/Myblog/assets/js/23.c9ee24f2.js"><link rel="prefetch" href="/Myblog/assets/js/230.328a275d.js"><link rel="prefetch" href="/Myblog/assets/js/231.1f8fca0d.js"><link rel="prefetch" href="/Myblog/assets/js/232.210097c9.js"><link rel="prefetch" href="/Myblog/assets/js/233.7404b48a.js"><link rel="prefetch" href="/Myblog/assets/js/234.17570644.js"><link rel="prefetch" href="/Myblog/assets/js/235.d707d970.js"><link rel="prefetch" href="/Myblog/assets/js/236.a0ad20ef.js"><link rel="prefetch" href="/Myblog/assets/js/237.3f77c82b.js"><link rel="prefetch" href="/Myblog/assets/js/238.a601be60.js"><link rel="prefetch" href="/Myblog/assets/js/239.0f1647b2.js"><link rel="prefetch" href="/Myblog/assets/js/24.6648b08b.js"><link rel="prefetch" href="/Myblog/assets/js/240.e70c0357.js"><link rel="prefetch" href="/Myblog/assets/js/241.9382b874.js"><link rel="prefetch" href="/Myblog/assets/js/242.d2ac0aaa.js"><link rel="prefetch" href="/Myblog/assets/js/243.c9e782d8.js"><link rel="prefetch" href="/Myblog/assets/js/244.ac022a0d.js"><link rel="prefetch" href="/Myblog/assets/js/245.84442b61.js"><link rel="prefetch" href="/Myblog/assets/js/246.dbf48064.js"><link rel="prefetch" href="/Myblog/assets/js/247.307dda62.js"><link rel="prefetch" href="/Myblog/assets/js/248.5c380b35.js"><link rel="prefetch" href="/Myblog/assets/js/249.b762abe8.js"><link rel="prefetch" href="/Myblog/assets/js/25.c6564192.js"><link rel="prefetch" href="/Myblog/assets/js/250.5f2b3bbb.js"><link rel="prefetch" href="/Myblog/assets/js/251.7a55e8b6.js"><link rel="prefetch" href="/Myblog/assets/js/252.e165b0e2.js"><link rel="prefetch" href="/Myblog/assets/js/253.01a45fbe.js"><link rel="prefetch" href="/Myblog/assets/js/254.bffd5f82.js"><link rel="prefetch" href="/Myblog/assets/js/255.4454f5a2.js"><link rel="prefetch" href="/Myblog/assets/js/256.eed81df0.js"><link rel="prefetch" href="/Myblog/assets/js/257.9cedc3b6.js"><link rel="prefetch" href="/Myblog/assets/js/258.06481761.js"><link rel="prefetch" href="/Myblog/assets/js/259.3e3ff0fc.js"><link rel="prefetch" href="/Myblog/assets/js/26.0ac75bf2.js"><link rel="prefetch" href="/Myblog/assets/js/260.f2e62a04.js"><link rel="prefetch" href="/Myblog/assets/js/261.3f9d83d3.js"><link rel="prefetch" href="/Myblog/assets/js/263.0b72a2f4.js"><link rel="prefetch" href="/Myblog/assets/js/264.20abc4e3.js"><link rel="prefetch" href="/Myblog/assets/js/265.9bd1bc71.js"><link rel="prefetch" href="/Myblog/assets/js/266.6baa71c2.js"><link rel="prefetch" href="/Myblog/assets/js/267.03c5aef0.js"><link rel="prefetch" href="/Myblog/assets/js/268.8ce849bd.js"><link rel="prefetch" href="/Myblog/assets/js/269.8e2bf302.js"><link rel="prefetch" href="/Myblog/assets/js/27.1bd3d321.js"><link rel="prefetch" href="/Myblog/assets/js/270.4d957b55.js"><link rel="prefetch" href="/Myblog/assets/js/28.05c5f781.js"><link rel="prefetch" href="/Myblog/assets/js/29.177cec6b.js"><link rel="prefetch" href="/Myblog/assets/js/3.e2191308.js"><link rel="prefetch" href="/Myblog/assets/js/30.f634d105.js"><link rel="prefetch" href="/Myblog/assets/js/31.cfa3dc6c.js"><link rel="prefetch" href="/Myblog/assets/js/32.315d4b92.js"><link rel="prefetch" href="/Myblog/assets/js/33.a321f0a1.js"><link rel="prefetch" href="/Myblog/assets/js/34.15d9c253.js"><link rel="prefetch" href="/Myblog/assets/js/35.90eabeb2.js"><link rel="prefetch" href="/Myblog/assets/js/36.6d9cebf2.js"><link rel="prefetch" href="/Myblog/assets/js/37.74cfaf22.js"><link rel="prefetch" href="/Myblog/assets/js/38.ea80202d.js"><link rel="prefetch" href="/Myblog/assets/js/39.3fcdece0.js"><link rel="prefetch" href="/Myblog/assets/js/4.9e795913.js"><link rel="prefetch" href="/Myblog/assets/js/40.4ceaa8c4.js"><link rel="prefetch" href="/Myblog/assets/js/41.dd86bae1.js"><link rel="prefetch" href="/Myblog/assets/js/42.cd5c3aa3.js"><link rel="prefetch" href="/Myblog/assets/js/43.88e87f64.js"><link rel="prefetch" href="/Myblog/assets/js/44.03c1e0f1.js"><link rel="prefetch" href="/Myblog/assets/js/45.47003a54.js"><link rel="prefetch" href="/Myblog/assets/js/46.1ea6d47e.js"><link rel="prefetch" href="/Myblog/assets/js/47.68919304.js"><link rel="prefetch" href="/Myblog/assets/js/48.5ad83483.js"><link rel="prefetch" href="/Myblog/assets/js/49.6d096ea9.js"><link rel="prefetch" href="/Myblog/assets/js/5.189b53c8.js"><link rel="prefetch" href="/Myblog/assets/js/50.8ee9a7dc.js"><link rel="prefetch" href="/Myblog/assets/js/51.035c6f15.js"><link rel="prefetch" href="/Myblog/assets/js/52.89154a76.js"><link rel="prefetch" href="/Myblog/assets/js/53.5694217c.js"><link rel="prefetch" href="/Myblog/assets/js/54.376bc0c2.js"><link rel="prefetch" href="/Myblog/assets/js/55.31a05605.js"><link rel="prefetch" href="/Myblog/assets/js/56.9c9cd548.js"><link rel="prefetch" href="/Myblog/assets/js/57.daa36ee7.js"><link rel="prefetch" href="/Myblog/assets/js/58.44b903fc.js"><link rel="prefetch" href="/Myblog/assets/js/59.5bb12dae.js"><link rel="prefetch" href="/Myblog/assets/js/6.cf66aca7.js"><link rel="prefetch" href="/Myblog/assets/js/60.43c572bd.js"><link rel="prefetch" href="/Myblog/assets/js/61.a8571534.js"><link rel="prefetch" href="/Myblog/assets/js/62.30007137.js"><link rel="prefetch" href="/Myblog/assets/js/63.a1ecb450.js"><link rel="prefetch" href="/Myblog/assets/js/64.3c0ae03d.js"><link rel="prefetch" href="/Myblog/assets/js/65.4567a0f6.js"><link rel="prefetch" href="/Myblog/assets/js/66.f9c91d35.js"><link rel="prefetch" href="/Myblog/assets/js/67.9be20316.js"><link rel="prefetch" href="/Myblog/assets/js/68.93873b76.js"><link rel="prefetch" href="/Myblog/assets/js/69.5d82da8e.js"><link rel="prefetch" href="/Myblog/assets/js/7.461e7637.js"><link rel="prefetch" href="/Myblog/assets/js/70.bc34b84d.js"><link rel="prefetch" href="/Myblog/assets/js/71.94ad23b9.js"><link rel="prefetch" href="/Myblog/assets/js/72.267dad5a.js"><link rel="prefetch" href="/Myblog/assets/js/73.af327a40.js"><link rel="prefetch" href="/Myblog/assets/js/74.24af1f23.js"><link rel="prefetch" href="/Myblog/assets/js/75.99d4f6b5.js"><link rel="prefetch" href="/Myblog/assets/js/76.90c0727b.js"><link rel="prefetch" href="/Myblog/assets/js/77.0f0146fe.js"><link rel="prefetch" href="/Myblog/assets/js/78.e2b8bf42.js"><link rel="prefetch" href="/Myblog/assets/js/79.be1b2402.js"><link rel="prefetch" href="/Myblog/assets/js/8.5e3c1a9f.js"><link rel="prefetch" href="/Myblog/assets/js/80.13b619dc.js"><link rel="prefetch" href="/Myblog/assets/js/81.aed9602e.js"><link rel="prefetch" href="/Myblog/assets/js/82.6494cf61.js"><link rel="prefetch" href="/Myblog/assets/js/83.f8ff6629.js"><link rel="prefetch" href="/Myblog/assets/js/84.0c0f1c95.js"><link rel="prefetch" href="/Myblog/assets/js/85.3f7ebaae.js"><link rel="prefetch" href="/Myblog/assets/js/86.26cfb9b2.js"><link rel="prefetch" href="/Myblog/assets/js/87.50de5927.js"><link rel="prefetch" href="/Myblog/assets/js/88.16a6f6b2.js"><link rel="prefetch" href="/Myblog/assets/js/89.ec1b1426.js"><link rel="prefetch" href="/Myblog/assets/js/9.ba7fe715.js"><link rel="prefetch" href="/Myblog/assets/js/90.86b3e992.js"><link rel="prefetch" href="/Myblog/assets/js/91.c873c679.js"><link rel="prefetch" href="/Myblog/assets/js/92.e3193be1.js"><link rel="prefetch" href="/Myblog/assets/js/93.bd638c7d.js"><link rel="prefetch" href="/Myblog/assets/js/94.a5c2221c.js"><link rel="prefetch" href="/Myblog/assets/js/95.c03e920e.js"><link rel="prefetch" href="/Myblog/assets/js/96.3344972d.js"><link rel="prefetch" href="/Myblog/assets/js/97.f6d6da35.js"><link rel="prefetch" href="/Myblog/assets/js/98.631c13f8.js"><link rel="prefetch" href="/Myblog/assets/js/99.3178067b.js">
+    <link rel="stylesheet" href="/Myblog/assets/css/0.styles.baca3271.css">
+  </head>
+  <body class="theme-mode-light">
+    <div id="app" data-server-rendered="true"><div class="theme-container sidebar-open"><header class="navbar blur"><div title="目录" class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/Myblog/" class="home-link router-link-active"><!----> <span class="site-name">麦仁博客</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/Myblog/" class="nav-link">首页</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端" class="dropdown-title"><a href="/Myblog/web/" class="link-title">前端</a> <span class="title" style="display:none;">前端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>javaScript笔记精选</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/Myblog/pages/03dd97/" class="nav-link">JS常用案例</a></li></ul></li><li class="dropdown-item"><h4>vue学习精选</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/Myblog/pages/0082e9/" class="nav-link">《vue基本知识点》</a></li><li class="dropdown-subitem"><a href="/Myblog/pages/24e9bb/" class="nav-link">《vue3的使用》</a></li></ul></li></ul></div></div><div class="nav-item"><a href="/Myblog/backEnd/" class="nav-link">后端</a></div><div class="nav-item"><a href="/Myblog/englishLife/" class="nav-link">英语</a></div><div class="nav-item"><a href="/Myblog/bookLife/" class="nav-link">读书</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="页面" class="dropdown-title"><a href="/Myblog/ui/" class="link-title">页面</a> <span class="title" style="display:none;">页面</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Myblog/pages/8309a5b876fc95e3/" class="nav-link">HTML</a></li><li class="dropdown-item"><!----> <a href="/Myblog/pages/0a83b083bdf257cb/" class="nav-link">CSS</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="技术" class="dropdown-title"><a href="/Myblog/technology/" class="link-title">技术</a> <span class="title" style="display:none;">技术</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Myblog/pages/9a7ee40fc232253e/" class="nav-link">技术文档</a></li><li class="dropdown-item"><!----> <a href="/Myblog/pages/4c778760be26d8b3/" class="nav-link">GitHub技巧</a></li><li class="dropdown-item"><!----> <a href="/Myblog/pages/117708e0af7f0bd9/" class="nav-link">Nodejs</a></li><li class="dropdown-item"><!----> <a href="/Myblog/pages/41f87d890d0a02af/" class="nav-link">博客搭建</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="更多" class="dropdown-title"><a href="/Myblog/more/" class="link-title">更多</a> <span class="title" style="display:none;">更多</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Myblog/pages/f2a556/" class="nav-link">学习</a></li><li class="dropdown-item"><!----> <a href="/Myblog/pages/aea6571b7a8bae86/" class="nav-link">面试</a></li><li class="dropdown-item"><!----> <a href="/Myblog/pages/2d615df9a36a98ed/" class="nav-link">心情杂货</a></li><li class="dropdown-item"><!----> <a href="/Myblog/pages/baaa02/" class="nav-link">实用技巧</a></li><li class="dropdown-item"><!----> <a href="/Myblog/friends/" class="nav-link">友情链接</a></li></ul></div></div><div class="nav-item"><a href="/Myblog/about/" class="nav-link">关于</a></div><div class="nav-item"><a href="/Myblog/pages/beb6c0bd8a66cea6/" class="nav-link">收藏</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="索引" class="dropdown-title"><a href="/Myblog/archives/" class="link-title">索引</a> <span class="title" style="display:none;">索引</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Myblog/categories/" class="nav-link">分类</a></li><li class="dropdown-item"><!----> <a href="/Myblog/tags/" class="nav-link">标签</a></li><li class="dropdown-item"><!----> <a href="/Myblog/archives/" class="nav-link">归档</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar-hover-trigger"></div> <aside class="sidebar" style="display:none;"><!----> <nav class="nav-links"><div class="nav-item"><a href="/Myblog/" class="nav-link">首页</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端" class="dropdown-title"><a href="/Myblog/web/" class="link-title">前端</a> <span class="title" style="display:none;">前端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>javaScript笔记精选</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/Myblog/pages/03dd97/" class="nav-link">JS常用案例</a></li></ul></li><li class="dropdown-item"><h4>vue学习精选</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/Myblog/pages/0082e9/" class="nav-link">《vue基本知识点》</a></li><li class="dropdown-subitem"><a href="/Myblog/pages/24e9bb/" class="nav-link">《vue3的使用》</a></li></ul></li></ul></div></div><div class="nav-item"><a href="/Myblog/backEnd/" class="nav-link">后端</a></div><div class="nav-item"><a href="/Myblog/englishLife/" class="nav-link">英语</a></div><div class="nav-item"><a href="/Myblog/bookLife/" class="nav-link">读书</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="页面" class="dropdown-title"><a href="/Myblog/ui/" class="link-title">页面</a> <span class="title" style="display:none;">页面</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Myblog/pages/8309a5b876fc95e3/" class="nav-link">HTML</a></li><li class="dropdown-item"><!----> <a href="/Myblog/pages/0a83b083bdf257cb/" class="nav-link">CSS</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="技术" class="dropdown-title"><a href="/Myblog/technology/" class="link-title">技术</a> <span class="title" style="display:none;">技术</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Myblog/pages/9a7ee40fc232253e/" class="nav-link">技术文档</a></li><li class="dropdown-item"><!----> <a href="/Myblog/pages/4c778760be26d8b3/" class="nav-link">GitHub技巧</a></li><li class="dropdown-item"><!----> <a href="/Myblog/pages/117708e0af7f0bd9/" class="nav-link">Nodejs</a></li><li class="dropdown-item"><!----> <a href="/Myblog/pages/41f87d890d0a02af/" class="nav-link">博客搭建</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="更多" class="dropdown-title"><a href="/Myblog/more/" class="link-title">更多</a> <span class="title" style="display:none;">更多</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Myblog/pages/f2a556/" class="nav-link">学习</a></li><li class="dropdown-item"><!----> <a href="/Myblog/pages/aea6571b7a8bae86/" class="nav-link">面试</a></li><li class="dropdown-item"><!----> <a href="/Myblog/pages/2d615df9a36a98ed/" class="nav-link">心情杂货</a></li><li class="dropdown-item"><!----> <a href="/Myblog/pages/baaa02/" class="nav-link">实用技巧</a></li><li class="dropdown-item"><!----> <a href="/Myblog/friends/" class="nav-link">友情链接</a></li></ul></div></div><div class="nav-item"><a href="/Myblog/about/" class="nav-link">关于</a></div><div class="nav-item"><a href="/Myblog/pages/beb6c0bd8a66cea6/" class="nav-link">收藏</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="索引" class="dropdown-title"><a href="/Myblog/archives/" class="link-title">索引</a> <span class="title" style="display:none;">索引</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Myblog/categories/" class="nav-link">分类</a></li><li class="dropdown-item"><!----> <a href="/Myblog/tags/" class="nav-link">标签</a></li><li class="dropdown-item"><!----> <a href="/Myblog/archives/" class="nav-link">归档</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/Myblog/pages/2d20ef/" class="sidebar-link">基本语法</a></li><li><a href="/Myblog/pages/f2c713/" class="sidebar-link">语句摘抄</a></li><li><a href="/Myblog/pages/092cac/" class="sidebar-link">月份&amp;周</a></li><li><a href="/Myblog/pages/b0633e/" class="sidebar-link">过去式and过去分词</a></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>可可晨读</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>每日语句摘抄</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>雅思chatGpt</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>TED</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading open"><span>2024年部分</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/Myblog/pages/91b104/" class="sidebar-link">20240604</a></li><li><a href="/Myblog/pages/b78e98/" class="sidebar-link">20240605</a></li><li><a href="/Myblog/pages/1e6642/" class="sidebar-link">20240607</a></li><li><a href="/Myblog/pages/401708/" aria-current="page" class="active sidebar-link">20240608</a></li></ul></section></li></ul></section></li></ul> </aside> <div><main class="page"><div class="theme-vdoing-wrapper "><div class="articleInfo-wrap" data-v-06225672><div class="articleInfo" data-v-06225672><ul class="breadcrumbs" data-v-06225672><li data-v-06225672><a href="/Myblog/" title="首页" class="iconfont icon-home router-link-active" data-v-06225672></a></li> <li data-v-06225672><a href="/Myblog/categories/?category=%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0" title="分类" data-v-06225672>英语学习</a></li><li data-v-06225672><a href="/Myblog/categories/?category=TED" title="分类" data-v-06225672>TED</a></li><li data-v-06225672><a href="/Myblog/categories/?category=2024%E5%B9%B4%E9%83%A8%E5%88%86" title="分类" data-v-06225672>2024年部分</a></li></ul> <div class="info" data-v-06225672><div title="作者" class="author iconfont icon-touxiang" data-v-06225672><a href="javascript:;" data-v-06225672>Riverside Joy</a></div> <div title="创建时间" class="date iconfont icon-riqi" data-v-06225672><a href="javascript:;" data-v-06225672>2024-06-08</a></div> <!----></div></div></div> <!----> <div class="content-wrapper"><!----> <h1><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAABH1JREFUSA3tVl1oHFUUPmdmd2ltklqbpJDiNnXFmgbFktho7YMPNiJSSZM0+CAYSkUELVhM6YuwIPpgoOKDqOBDC0XE2CQoNtQXBUFTTcCi+Wlh1V2TQExsUzcltd3M9Tt3ZjZzZ2fT+OJTL8yeM+eee757fmeJbq//KQL8X3DUSFOcfr7cRsRtxNQMWueeVzOkaITIGqQHNg5y8+jNW9ldM7A6nTpAjuolUikAwq7CE3WcM2RRDz+XGVgN3FptU/aUSlvq9Pa3iZ1+sgAqJyyAFqkipd9dqiwHF3P65YycLWc/6sqGrvoEoIp6DOFaX5h6+dnfjkWprwqsPk0dUGq5vySwDImC10KxFHgGL1SWoc92O3eVht09qdXNH11I2SsTsJYqMWzihqGMi+A+Garf3BAuuLI5oGlULyNfyB/HYNujwktOfRrMr5t77NmevqaUopx0grnKAyvVpmwUDB4x6FPXuGvYLTDwWsejwgtgkYKPqRJg8SV6xaiZ3ZTppGneS4yfH5/66fZSDHv+QZci/+h5c5UHtpy67JUqGppM0sh0Nc1dW6/N1W5Yoqat8/TU/VnadmdeW2PLLSyh0cvxBs3KbqTmwYPpxN4do/mzE8nEpvX/UMu2Wbp74zUAK5q6WkHns7V0eWkdPbPzd3rxkTGybadYySumVzhcaJFbs5UrEkQ/+CK8gF5dnh/6ciIZ73gwQ927L1IitoxKLXYP3SjYdOrHHfTZhRRlFyrorafPk20B3HPD1y2G3qKZME5Jcf3t/HUC13/8tSd++vqFveMUTwAUxSUFI1QekR1+bIze3D9MF2aq6cPvG72CgnldWCFqyRw3lwH8ZMerjTD9ElRO7Gv44wNpC90aASqGfVlz/Rx17srQ57/UU26hkhQqUB7dBR71WmzQhHUnblGmVOEw0jhbV1n9OlXUDCIRGaNV5Jp43N516fN7JmnTHdfp7Hgy0luO4aMhtkLL8Bi3bUWYvzh5Mn1dTxrL6QmGuRhGL/TiTTxRoEdTszSaq9GR0NGA3KdkOz3hqSV3MIDhQ5IVX/Ivx3umBti2es2h4eZby7x8br1rkf7Mo90AqC8aQ3sJeNzqFRu+vSANAQe3PL7l0HGOAdwDCeZYvNKeoZp1Qfs6Aipndh86HmFRi0LAnEO47wsqM6cdfjh3jBPUzhZy7nvlUfFsamED1VQt6aISHVymXZ/B2aCtIG8AI8xfobj2d3en1wWVhOeHELKmLQ1s211s88comkv4UCwWyF787mJdYXtNfhKAXVqnKTq8QZvGAGGOfaTo5pGZ/PwbUCr5+DPr/1J92JNHr9aOl/F3iI5+O1nfybsGxoimvZ3ViWSluDITw3P37mypheDIPY0tw7+O/5ApbkYw+zpfaUVu32Pi98+defdUhEpZkRFq0aqyNh9FuL9hpYbEm6iwi0z2REd09ZmyENEbuhjDWzKvZXTqKYaBIr3tt5kuPtQBZFvEUwHt60vfCNu41XsksH9Ij1BMMz1Y0OOunHNShFIP5868g5zeXmuLwL9T4b6Q2+KejgAAAABJRU5ErkJggg==">20240608<!----></h1> <!----> <div class="theme-vdoing-content content__default"><p>I'm a techno-optimist,
+but techno-optimism should be practiced with both empathy and care.
+And I’m a believer in what is possible if you do it that way.
+First, I'm going to give you a word of warning.
+Experts extrapolate the past.
+They prevent radical progress because they don't think nonlinearly.
+They don't think of the improbable.
+I personally believe only the improbables are important.
+We just don't know which improbable is important.
+Entrepreneurs, on the other hand, with a passion for a vision,
+they dream the dreams, and then are foolish enough,
+and we need more foolishness,
+to try and make those implausible dreams come true.
+That's what entrepreneurship is about, something I've loved my whole life.
+In the 40 years, I’ve been doing innovation and innovation only.
+This may surprise people.
+I can't think of a single large social impact change
+that was driven by an expert in the field,
+possibly with the exception of biotechnology,
+that's driven by an expert, by a large institution,
+a large non-founder-led company.
+Think about it. In 40 years, not one example.
+Whether you look at SpaceX, or electric cars or Uber,
+not one example.
+The earliest one I could think of was credit cards in the early 70s,
+when Bank of America put credit on plastic.
+So what is this plausible world?
+I'll go through a dozen scenarios
+that I believe most experts will pooh-pooh.
+Most expertise enabled by AI will be free.
+I'm most excited
+that every human being on the planet
+can have, 24/7, a free doctor,
+primary care in a very expansive way.
+That every child can have a free tutor
+in a very available, accessible way,
+and these will be near free.
+It doesn't matter, other expertise
+whether you're looking at structural engineers or oncologists,
+most expertise will be near free.
+The cost of computing.
+Most labor will also be free.
+I can imagine a billion bipedal robots
+doing more work than all of human labor does today,
+freeing humans from the servitude of some of the jobs.
+Working at General Motors on an assembly line for eight hours a day,
+doing the same thing for 30 years.
+That's not a job. That's almost slavery.
+I do believe we will have enough abundance
+to take care of everybody who is displaced.
+And that's where the empathy part of techno-optimism comes in.
+We will have enough for redistribution to happen.
+Programming will be near free also.
+And though we think of computers as pervasive today,
+I think they'll be much more prevalent,
+much more pervasive and expansive.
+In fact, I think we will think of computers almost like a utility.
+How many of you think about electricity?
+That's how it will be in the background, not in our face.
+And like this little Rabbit device I have in my hand, we'll just talk to it.
+It'll understand human instruction.
+Computers will adapt to humans.
+We won't have to have humans learn computer.
+Five years ago, when I first spoke at a conference in Toronto
+on the role AI will play in music generation,
+I was met with skepticism.
+In fact, derision.
+Whether it's AI alone or AI plus humans,
+the level of creativity in entertainment and design will dramatically go up.
+The level of diversity of these things will go up dramatically.
+I'm excited about that.
+Surprisingly, internet access will mostly be by agents.
+Billions of agents running around doing things for us humans.
+Medicine is my other favorite.
+We have pretty good medicine today,
+but we have the practice of medicine,
+and it will change to the science of medicine.
+It will change from what is mostly sick care today,
+we apply medicine when people are sick,
+to health care to prevent sickness.
+It's a shame that in this day and age,
+most people who get a heart attack discover they have cardiac disease
+by having a heart attack,
+not 20 years earlier when that disease started.
+That won't happen.
+Food.
+We will have new types of proteins, which we need,
+and new kinds of fertilizer essential to agriculture.
+RuBisCO is the most prevalent protein on the planet.
+Every place you see green, there is RuBisCO behind that chlorophyll,
+or almost everywhere.
+There's a few exceptions.
+And we will have much more environmentally better proteins
+than either plant proteins,
+and possibly better than corn and soy.
+So I'm excited about that, and greener fertilizer.
+Oh, my favorite.
+Experts completely disagree with me when I say this.
+We can, in the next 25 years,
+replace most cars in most cities.
+Why? By making transit faster than a chauffeured car,
+cheaper than a public transit system
+and pervasive, any time on demand.
+And yes, we can do it.
+In fact, we are building the first one of these public transit systems
+in San Jose today.
+Another one of these, flying at almost 4000 mph.
+We will be able to fly from New York to London for lunch.
+It will make the world a much closer place.
+And we fret a lot about power,
+and we think solar and wind are the solution.
+They're great solutions
+I've been advocating for the last 20 years.
+But fusion power will replace most coal and natural gas power plants today.
+Again, people say we can't build that many.
+We can if we are smart, if we just replace their boilers,
+or maybe the boilers and their turbines.
+In fact, all those plants will probably be retrofitted with fusion,
+possibly with superhot geothermal,
+not the kind of geothermal you've heard about,
+even heard about at TED.
+But much hotter, better, more efficient geothermal.
+Doomers say we don't have enough resources like lithium and copper.
+In fact, I say we haven't started to look.
+In fact, we haven't started to develop the technologies
+that will let us look a kilometer below the surface.
+We are well on our way, though.
+There will be carbon solutions for everything.
+Entrepreneurs are working on this.
+There's only a dozen major emitter categories,
+and I wrote a blog on it about two years ago.
+And it only takes one entrepreneur to tackle each of these categories,
+so a dozen instigators can change the world of climate.
+In fact, we inaugurated last week
+the first cement plant in California
+which from the same amount of limestone produces twice the amount of cement
+by capturing the carbon dioxide and putting it into product.
+You repurpose existing plants,
+upgrade them like you would coal plants and natural gas plants,
+and you increase the level of product
+while decreasing the cost per ton.
+That's what makes these things scalable.
+All we need is a few entrepreneurs
+who will imagine the impossible, dream the dreams,
+and then be foolish enough to make them come true.
+There's lots of reasons this won't happen, but I won't delve into them.
+But I do think a really abundant world is possible.
+It only takes a few motivated,
+impassioned entrepreneurs to make it happen.
+Thank you.
+(Applause)</p> <p>我是一个技术乐观主义者，
+&quot;但技术乐观主义应该
+以同理心和关怀来实践。&quot;
+&quot;我相信
+如果你这样做的话，一切皆有可能。&quot;
+&quot;首先，我要
+警告你。&quot;
+专家们推断过去。
+&quot;他们阻止了激进的进步，
+因为他们不非线性思考。&quot;
+他们不会考虑不可能的事情。
+&quot;我个人认为
+只有不可能的事情才是重要的。&quot;
+&quot;我们只是不知道
+哪个不太可能的事情是重要的。&quot;
+&quot;另一方面，企业家
+怀着对愿景的热情，&quot;
+&quot;他们梦想着梦想，
+然后他们就足够愚蠢了，&quot;
+我们需要更多的愚蠢
+&quot;来尝试让那些
+难以置信的梦想成真。&quot;
+&quot;这就是创业精神，
+也是我一生所热爱的。&quot;
+&quot;这40年，我一直在做
+创新，只做创新。&quot;
+这可能会让人们感到惊讶。
+&quot;我想不出有哪个
+重大的社会影响变化&quot;
+是由该领域的专家推动的，
+&quot;可能除了
+生物技术之外，&quot;
+&quot;它是由专家、
+大型机构、&quot;
+大型非创始人领导的公司推动的。
+&quot;想一想。
+40年来，没有一个例子。&quot;
+&quot;无论你看看 SpaceX、
+电动汽车还是 Uber，&quot;
+没有一个例子。
+&quot;我最早能想到的
+是 70 年代初的信用卡，&quot;
+&quot;当时美国银行
+将信用额度用于塑料信用卡。&quot;
+那么这个似是而非的世界是什么呢？
+我将介绍十几个
+&quot;我相信
+大多数专家都会嗤之以鼻的场景。&quot;
+人工智能支持的大多数专业知识将是免费的。
+我最兴奋的是，
+地球上的每个人都
+可以
+以非常广泛的方式获得 24/7 的免费医生和初级保健。
+每个孩子都可以以
+一种非常方便、方便的方式获得免费导师，
+而且这些导师几乎是免费的。
+没关系，其他专业知识，
+&quot;无论您是在寻找
+结构工程师还是肿瘤学家，&quot;
+大多数专业知识都几乎是免费的。
+计算成本。
+大多数劳动力也将是免费的。
+我可以想象十亿双足机器人
+&quot;所做的工作比
+当今所有人类劳动力还要多，从而&quot;
+&quot;将人类从
+某些工作的奴役中解放出来。&quot;
+&quot;在通用汽车的
+装配线上工作，每天八小时，&quot;
+做同样的事情三十年。
+那不是一份工作。 这几乎就是奴隶制。
+我确实相信我们将有足够的资源
+&quot;来照顾每个
+流离失所的人。&quot;
+&quot;这就是
+技术乐观主义的同理心部分发挥作用的地方。&quot;
+&quot;我们将有足够的资源
+来进行重新分配。&quot;
+编程也将接近免费。
+&quot;尽管我们今天认为计算机已经
+普及，但&quot;
+我认为它们将会更加普遍、
+更加普及和广泛。
+&quot;事实上，我认为我们会将
+计算机视为一种实用工具。&quot;
+你们中有多少人想到了电？
+&quot;这就是它
+在背景中的样子，而不是在我们面前的样子。&quot;
+&quot;就像我手里的这个小兔子设备一样
+，我们只需与它交谈即可。&quot;
+它会理解人类的指令。
+计算机将适应人类。
+&quot;我们不必让
+人类学习计算机。&quot;
+&quot;五年前，当我第一次
+在多伦多的一次会议上谈论&quot;
+&quot;人工智能
+在音乐生成中的作用时，&quot;
+我遭到了怀疑。
+其实是嘲讽。
+无论是单独的人工智能还是人工智能加人类，
+&quot;娱乐
+和设计的创造力水平都将大幅提升。&quot;
+&quot;这些事物的多样性水平
+将急剧上升。&quot;
+我对此感到很兴奋。
+&quot;令人惊讶的是，互联网访问
+主要由代理进行。&quot;
+&quot;数十亿特工四处奔波，
+为我们人类做事。&quot;
+医学是我的另一个最爱。
+今天我们有相当好的医学，
+但我们有医学实践，
+&quot;它将转变
+为医学科学。&quot;
+&quot;它将从
+现在主要是&quot;
+生病时的医疗，转变
+为医疗保健以预防疾病。
+令人遗憾的是，在当今这个时代，
+&quot;大多数心脏病发作的人都是通过心脏病发作才
+发现自己患有&quot;
+心脏病，而
+&quot;不是
+在疾病开始的 20 年前。&quot;
+那不会发生。
+食物。
+&quot;我们将拥有
+我们所需的新型蛋白质，&quot;
+&quot;以及
+农业必需的新型肥料。&quot;
+&quot;RuBisCO 是地球上最普遍的
+蛋白质。 在&quot;
+&quot;你看到绿色的每一个地方，
+叶绿素后面都有RuBisCO，&quot;
+或者说几乎无处不在。
+有一些例外。
+&quot;我们将拥有比植物蛋白更
+环保的蛋白质&quot;
+，
+甚至可能比玉米和大豆更好。
+&quot;所以我对此感到兴奋，
+还有更环保的肥料。&quot;
+哦，我的最爱。 当我这么说时，
+&quot;专家们完全不同意
+我的观点。&quot;
+在未来 25 年里，我们可以
+更换大多数城市的大多数汽车。
+&quot;为什么？ 让交通
+比专职司机更快、&quot;
+比公共交通系统更便宜
+并且随需随叫随到。
+是的，我们可以做到。
+&quot;事实上，我们今天正在圣何塞建设第一个
+公共交通系统&quot;
+。
+&quot;其中另一架的
+飞行速度接近 4000 英里/小时。&quot;
+&quot;我们将能够
+从纽约飞往伦敦吃午餐。&quot;
+&quot;这将使世界变得
+更加紧密。&quot;
+我们非常担心电力问题，
+&quot;我们认为太阳能和风能
+是解决方案。&quot;
+它们是
+&quot;我
+过去 20 年来一直倡导的出色解决方案。&quot;
+&quot;但聚变发电将取代当今大多数煤炭
+和天然气发电厂。&quot;
+&quot;人们再次说
+我们不能建造那么多。&quot;
+&quot;如果我们聪明的话，
+只要我们更换他们的锅炉，&quot;
+或者锅炉和涡轮机，我们就可以做到。
+&quot;事实上，所有这些发电厂都
+可能会通过核聚变进行改造，&quot;
+可能会使用超热地热，而
+&quot;不是
+你听说过的那种地热，&quot;
+甚至在 TED 上也听说过。
+&quot;但更热、更好、
+更高效的地热能。&quot;
+&quot;末日论者说我们没有
+足够的资源，比如锂和铜。&quot;
+事实上，我说我们还没有开始寻找。
+&quot;事实上，我们还没有开始
+开发&quot;
+&quot;能够让我们观察
+地表以下一公里的技术。&quot;
+不过，我们进展顺利。 一切
+&quot;都会有碳解决方案
+。&quot;
+企业家们正在为此努力。
+&quot;
+主要的发射器类别只有十几个，大约两年前&quot;
+&quot;我写了一篇关于它的博客
+。&quot;
+&quot;只需要一位企业家
+就能解决每一类问题，&quot;
+&quot;因此十几位煽动者
+就可以改变气候世界。&quot;
+事实上，我们上周
+在加利福尼亚州开设了第一家水泥厂，通过捕获二氧化碳并将其转化为产品，用
+&quot;相同数量的石灰石
+生产出两倍数量的水泥&quot;
+&quot;
+。&quot;
+您可以重新利用现有工厂，像升级
+&quot;
+燃煤工厂和天然气工厂一样升级它们，&quot;
+并提高产品水平，
+同时降低每吨成本。
+这就是使这些东西具有可扩展性的原因。
+我们所需要的只是一些企业家，
+&quot;他们能够想象不可能的事情，
+梦想梦想，&quot;
+&quot;然后愚蠢地
+让它们成真。&quot;
+&quot;有很多原因不会发生这种情况，
+但我不会深入研究它们。&quot;
+&quot;但我确实认为一个真正丰富的
+世界是可能的。&quot;
+只需要一些有动力、
+&quot;充满热情的企业家
+就能实现这一目标。&quot;
+谢谢。
+（掌声）</p></div></div> <!----> <div class="page-edit"><!----> <!----> <!----></div> <div class="page-nav-wapper"><div class="page-nav-centre-wrap"><a href="/Myblog/pages/1e6642/" class="page-nav-centre page-nav-centre-prev"><div class="tooltip">20240607</div></a> <!----></div> <div class="page-nav"><p class="inner"><span class="prev">
+        ←
+        <a href="/Myblog/pages/1e6642/" class="prev">20240607</a></span> <!----></p></div></div></div> <div class="article-list"><div class="article-title"><a href="/Myblog/archives/" class="iconfont icon-bi">最近更新</a></div> <div class="article-wrapper"><dl><dd>01</dd> <dt><a href="/Myblog/pages/1e6642/"><div>
+            20240607
+            <!----></div></a> <span class="date">06-08</span></dt></dl><dl><dd>02</dd> <dt><a href="/Myblog/pages/30eb9a/"><div>
+            基础用法
+            <!----></div></a> <span class="date">06-07</span></dt></dl><dl><dd>03</dd> <dt><a href="/Myblog/pages/b78e98/"><div>
+            20240605
+            <!----></div></a> <span class="date">06-05</span></dt></dl> <dl><dd></dd> <dt><a href="/Myblog/archives/" class="more">更多文章&gt;</a></dt></dl></div></div></main></div> <div class="footer"><!----> 
+  Theme by
+  <a href="https://github.com/xugaoyi/vuepress-theme-vdoing" target="_blank" title="本站主题">Vdoing</a> <!----></div> <div class="buttons"><div title="返回顶部" class="button blur go-to-top iconfont icon-fanhuidingbu" style="display:none;"></div> <div title="去评论" class="button blur go-to-comment iconfont icon-pinglun" style="display:none;"></div> <div title="主题模式" class="button blur theme-mode-but iconfont icon-zhuti"><ul class="select-box" style="display:none;"><li class="iconfont icon-zidong">
+          跟随系统
+        </li><li class="iconfont icon-rijianmoshi">
+          浅色模式
+        </li><li class="iconfont icon-yejianmoshi">
+          深色模式
+        </li><li class="iconfont icon-yuedu">
+          阅读模式
+        </li></ul></div></div> <!----> <!----> <!----></div><div class="global-ui"></div></div>
+    <script src="/Myblog/assets/js/app.00f57cf3.js" defer></script><script src="/Myblog/assets/js/2.9f56fe95.js" defer></script><script src="/Myblog/assets/js/262.d28d2057.js" defer></script>
+  </body>
+</html>
