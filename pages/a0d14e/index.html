@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>20240611 | 麦仁博客</title>
+    <meta name="generator" content="VuePress 1.9.9">
+    
+    <meta name="description" content="记录前端知识、读书学习">
+    
+    <link rel="preload" href="/Myblog/assets/css/0.styles.baca3271.css" as="style"><link rel="preload" href="/Myblog/assets/js/app.0550b311.js" as="script"><link rel="preload" href="/Myblog/assets/js/2.9f56fe95.js" as="script"><link rel="preload" href="/Myblog/assets/js/266.99826fba.js" as="script"><link rel="prefetch" href="/Myblog/assets/js/10.e375948a.js"><link rel="prefetch" href="/Myblog/assets/js/100.39213c07.js"><link rel="prefetch" href="/Myblog/assets/js/101.c3a0e1a4.js"><link rel="prefetch" href="/Myblog/assets/js/102.74c0072d.js"><link rel="prefetch" href="/Myblog/assets/js/103.a10c4ddf.js"><link rel="prefetch" href="/Myblog/assets/js/104.146f916b.js"><link rel="prefetch" href="/Myblog/assets/js/105.6ce14f08.js"><link rel="prefetch" href="/Myblog/assets/js/106.772851c8.js"><link rel="prefetch" href="/Myblog/assets/js/107.fdcee1b2.js"><link rel="prefetch" href="/Myblog/assets/js/108.fffd260b.js"><link rel="prefetch" href="/Myblog/assets/js/109.54b90591.js"><link rel="prefetch" href="/Myblog/assets/js/11.29e20041.js"><link rel="prefetch" href="/Myblog/assets/js/110.2ade851c.js"><link rel="prefetch" href="/Myblog/assets/js/111.e1d9e925.js"><link rel="prefetch" href="/Myblog/assets/js/112.298fce77.js"><link rel="prefetch" href="/Myblog/assets/js/113.6ae2aae7.js"><link rel="prefetch" href="/Myblog/assets/js/114.8a8c9803.js"><link rel="prefetch" href="/Myblog/assets/js/115.ca56461c.js"><link rel="prefetch" href="/Myblog/assets/js/116.1e7901ea.js"><link rel="prefetch" href="/Myblog/assets/js/117.156a11e9.js"><link rel="prefetch" href="/Myblog/assets/js/118.3c46df90.js"><link rel="prefetch" href="/Myblog/assets/js/119.c2f3f30c.js"><link rel="prefetch" href="/Myblog/assets/js/12.b0d427cc.js"><link rel="prefetch" href="/Myblog/assets/js/120.1536e533.js"><link rel="prefetch" href="/Myblog/assets/js/121.2a10c420.js"><link rel="prefetch" href="/Myblog/assets/js/122.a6d07405.js"><link rel="prefetch" href="/Myblog/assets/js/123.6b3aeaa8.js"><link rel="prefetch" href="/Myblog/assets/js/124.f5796834.js"><link rel="prefetch" href="/Myblog/assets/js/125.e379589b.js"><link rel="prefetch" href="/Myblog/assets/js/126.355710ff.js"><link rel="prefetch" href="/Myblog/assets/js/127.d244f39e.js"><link rel="prefetch" href="/Myblog/assets/js/128.948f93fd.js"><link rel="prefetch" href="/Myblog/assets/js/129.b48c6d18.js"><link rel="prefetch" href="/Myblog/assets/js/13.76c75236.js"><link rel="prefetch" href="/Myblog/assets/js/130.5375c4d1.js"><link rel="prefetch" href="/Myblog/assets/js/131.708eb00d.js"><link rel="prefetch" href="/Myblog/assets/js/132.eda17df2.js"><link rel="prefetch" href="/Myblog/assets/js/133.a95c49ac.js"><link rel="prefetch" href="/Myblog/assets/js/134.198f05f5.js"><link rel="prefetch" href="/Myblog/assets/js/135.e379a86f.js"><link rel="prefetch" href="/Myblog/assets/js/136.b7fb4425.js"><link rel="prefetch" href="/Myblog/assets/js/137.f2084745.js"><link rel="prefetch" href="/Myblog/assets/js/138.3c1db5f6.js"><link rel="prefetch" href="/Myblog/assets/js/139.261efbf1.js"><link rel="prefetch" href="/Myblog/assets/js/14.7af41071.js"><link rel="prefetch" href="/Myblog/assets/js/140.02ce38ac.js"><link rel="prefetch" href="/Myblog/assets/js/141.79144e03.js"><link rel="prefetch" href="/Myblog/assets/js/142.b0f1665d.js"><link rel="prefetch" href="/Myblog/assets/js/143.ea9061dc.js"><link rel="prefetch" href="/Myblog/assets/js/144.9121326f.js"><link rel="prefetch" href="/Myblog/assets/js/145.7e1b04db.js"><link rel="prefetch" href="/Myblog/assets/js/146.32a9ab65.js"><link rel="prefetch" href="/Myblog/assets/js/147.6a957ab8.js"><link rel="prefetch" href="/Myblog/assets/js/148.5c04702d.js"><link rel="prefetch" href="/Myblog/assets/js/149.12ea5e44.js"><link rel="prefetch" href="/Myblog/assets/js/15.3c8b48b4.js"><link rel="prefetch" href="/Myblog/assets/js/150.314cb1f7.js"><link rel="prefetch" href="/Myblog/assets/js/151.36d89910.js"><link rel="prefetch" href="/Myblog/assets/js/152.0d4fcccf.js"><link rel="prefetch" href="/Myblog/assets/js/153.d3d84cf4.js"><link rel="prefetch" href="/Myblog/assets/js/154.ea3a38d9.js"><link rel="prefetch" href="/Myblog/assets/js/155.cffe0f43.js"><link rel="prefetch" href="/Myblog/assets/js/156.e4d17bbe.js"><link rel="prefetch" href="/Myblog/assets/js/157.21cdc8c0.js"><link rel="prefetch" href="/Myblog/assets/js/158.385d9ee9.js"><link rel="prefetch" href="/Myblog/assets/js/159.97bf092f.js"><link rel="prefetch" href="/Myblog/assets/js/16.158d0e95.js"><link rel="prefetch" href="/Myblog/assets/js/160.853c141b.js"><link rel="prefetch" href="/Myblog/assets/js/161.282fb46b.js"><link rel="prefetch" href="/Myblog/assets/js/162.b559f8d0.js"><link rel="prefetch" href="/Myblog/assets/js/163.1c735f77.js"><link rel="prefetch" href="/Myblog/assets/js/164.d343c669.js"><link rel="prefetch" href="/Myblog/assets/js/165.8f31c318.js"><link rel="prefetch" href="/Myblog/assets/js/166.9960b27c.js"><link rel="prefetch" href="/Myblog/assets/js/167.9739656b.js"><link rel="prefetch" href="/Myblog/assets/js/168.8d3193b7.js"><link rel="prefetch" href="/Myblog/assets/js/169.8ea93c66.js"><link rel="prefetch" href="/Myblog/assets/js/17.0693f9b9.js"><link rel="prefetch" href="/Myblog/assets/js/170.634708d7.js"><link rel="prefetch" href="/Myblog/assets/js/171.2b8bd91b.js"><link rel="prefetch" href="/Myblog/assets/js/172.c1b579db.js"><link rel="prefetch" href="/Myblog/assets/js/173.f8e3211e.js"><link rel="prefetch" href="/Myblog/assets/js/174.f1f34de3.js"><link rel="prefetch" href="/Myblog/assets/js/175.142ed334.js"><link rel="prefetch" href="/Myblog/assets/js/176.36395a45.js"><link rel="prefetch" href="/Myblog/assets/js/177.42f3de4c.js"><link rel="prefetch" href="/Myblog/assets/js/178.9ab216ca.js"><link rel="prefetch" href="/Myblog/assets/js/179.53b2e52c.js"><link rel="prefetch" href="/Myblog/assets/js/18.957d5209.js"><link rel="prefetch" href="/Myblog/assets/js/180.d7f3e039.js"><link rel="prefetch" href="/Myblog/assets/js/181.b9939847.js"><link rel="prefetch" href="/Myblog/assets/js/182.8b6d934e.js"><link rel="prefetch" href="/Myblog/assets/js/183.a90f96f5.js"><link rel="prefetch" href="/Myblog/assets/js/184.479d605c.js"><link rel="prefetch" href="/Myblog/assets/js/185.eae42fc8.js"><link rel="prefetch" href="/Myblog/assets/js/186.8bebf5bd.js"><link rel="prefetch" href="/Myblog/assets/js/187.f6d289a9.js"><link rel="prefetch" href="/Myblog/assets/js/188.ebc15f42.js"><link rel="prefetch" href="/Myblog/assets/js/189.424e2dfb.js"><link rel="prefetch" href="/Myblog/assets/js/19.b8637a5e.js"><link rel="prefetch" href="/Myblog/assets/js/190.1d50c6e1.js"><link rel="prefetch" href="/Myblog/assets/js/191.1e030632.js"><link rel="prefetch" href="/Myblog/assets/js/192.7ff10067.js"><link rel="prefetch" href="/Myblog/assets/js/193.7d21436d.js"><link rel="prefetch" href="/Myblog/assets/js/194.5b566b44.js"><link rel="prefetch" href="/Myblog/assets/js/195.0b211bd7.js"><link rel="prefetch" href="/Myblog/assets/js/196.6970f975.js"><link rel="prefetch" href="/Myblog/assets/js/197.4ca85024.js"><link rel="prefetch" href="/Myblog/assets/js/198.43a3c0b7.js"><link rel="prefetch" href="/Myblog/assets/js/199.951fb117.js"><link rel="prefetch" href="/Myblog/assets/js/20.5d7cd290.js"><link rel="prefetch" href="/Myblog/assets/js/200.5b2aa9c1.js"><link rel="prefetch" href="/Myblog/assets/js/201.edb844c2.js"><link rel="prefetch" href="/Myblog/assets/js/202.e61cc82c.js"><link rel="prefetch" href="/Myblog/assets/js/203.ff3e7e72.js"><link rel="prefetch" href="/Myblog/assets/js/204.05388306.js"><link rel="prefetch" href="/Myblog/assets/js/205.6f831cde.js"><link rel="prefetch" href="/Myblog/assets/js/206.a082a738.js"><link rel="prefetch" href="/Myblog/assets/js/207.d254937b.js"><link rel="prefetch" href="/Myblog/assets/js/208.0cd12103.js"><link rel="prefetch" href="/Myblog/assets/js/209.d0b05c02.js"><link rel="prefetch" href="/Myblog/assets/js/21.22ceb627.js"><link rel="prefetch" href="/Myblog/assets/js/210.c8727eb5.js"><link rel="prefetch" href="/Myblog/assets/js/211.ce9cdc07.js"><link rel="prefetch" href="/Myblog/assets/js/212.234e26c8.js"><link rel="prefetch" href="/Myblog/assets/js/213.c7c247af.js"><link rel="prefetch" href="/Myblog/assets/js/214.f176bff7.js"><link rel="prefetch" href="/Myblog/assets/js/215.1a5d31e1.js"><link rel="prefetch" href="/Myblog/assets/js/216.7d7dd82e.js"><link rel="prefetch" href="/Myblog/assets/js/217.c6736d3b.js"><link rel="prefetch" href="/Myblog/assets/js/218.1f53b094.js"><link rel="prefetch" href="/Myblog/assets/js/219.d9f1df71.js"><link rel="prefetch" href="/Myblog/assets/js/22.6d8a6bf5.js"><link rel="prefetch" href="/Myblog/assets/js/220.ab2316e9.js"><link rel="prefetch" href="/Myblog/assets/js/221.ee23e99d.js"><link rel="prefetch" href="/Myblog/assets/js/222.2fa27e99.js"><link rel="prefetch" href="/Myblog/assets/js/223.336e063e.js"><link rel="prefetch" href="/Myblog/assets/js/224.d88a9101.js"><link rel="prefetch" href="/Myblog/assets/js/225.453f9a35.js"><link rel="prefetch" href="/Myblog/assets/js/226.746a38dc.js"><link rel="prefetch" href="/Myblog/assets/js/227.36204cb6.js"><link rel="prefetch" href="/Myblog/assets/js/228.685d43f7.js"><link rel="prefetch" href="/Myblog/assets/js/229.b22155ca.js"><link rel="prefetch" href="/Myblog/assets/js/23.31ac2b05.js"><link rel="prefetch" href="/Myblog/assets/js/230.c0dba55d.js"><link rel="prefetch" href="/Myblog/assets/js/231.bd9bf112.js"><link rel="prefetch" href="/Myblog/assets/js/232.3ea666fc.js"><link rel="prefetch" href="/Myblog/assets/js/233.a4690773.js"><link rel="prefetch" href="/Myblog/assets/js/234.4f694d65.js"><link rel="prefetch" href="/Myblog/assets/js/235.34fdd853.js"><link rel="prefetch" href="/Myblog/assets/js/236.c127aca5.js"><link rel="prefetch" href="/Myblog/assets/js/237.dfd59643.js"><link rel="prefetch" href="/Myblog/assets/js/238.1ccb9596.js"><link rel="prefetch" href="/Myblog/assets/js/239.b0ace554.js"><link rel="prefetch" href="/Myblog/assets/js/24.6648b08b.js"><link rel="prefetch" href="/Myblog/assets/js/240.4abc20ac.js"><link rel="prefetch" href="/Myblog/assets/js/241.6d5294b9.js"><link rel="prefetch" href="/Myblog/assets/js/242.297c60c5.js"><link rel="prefetch" href="/Myblog/assets/js/243.1d274434.js"><link rel="prefetch" href="/Myblog/assets/js/244.1ddae5f8.js"><link rel="prefetch" href="/Myblog/assets/js/245.40093b2b.js"><link rel="prefetch" href="/Myblog/assets/js/246.12aaba76.js"><link rel="prefetch" href="/Myblog/assets/js/247.b6ded2aa.js"><link rel="prefetch" href="/Myblog/assets/js/248.c1587beb.js"><link rel="prefetch" href="/Myblog/assets/js/249.5b2b8af7.js"><link rel="prefetch" href="/Myblog/assets/js/25.f639ea0f.js"><link rel="prefetch" href="/Myblog/assets/js/250.721ac829.js"><link rel="prefetch" href="/Myblog/assets/js/251.250f856b.js"><link rel="prefetch" href="/Myblog/assets/js/252.2ab73652.js"><link rel="prefetch" href="/Myblog/assets/js/253.97bd50de.js"><link rel="prefetch" href="/Myblog/assets/js/254.4aee42fc.js"><link rel="prefetch" href="/Myblog/assets/js/255.9938dc24.js"><link rel="prefetch" href="/Myblog/assets/js/256.3aca30c9.js"><link rel="prefetch" href="/Myblog/assets/js/257.c4a36d79.js"><link rel="prefetch" href="/Myblog/assets/js/258.f7ee610d.js"><link rel="prefetch" href="/Myblog/assets/js/259.ec996d4a.js"><link rel="prefetch" href="/Myblog/assets/js/26.97a851c8.js"><link rel="prefetch" href="/Myblog/assets/js/260.946e56ee.js"><link rel="prefetch" href="/Myblog/assets/js/261.2f843802.js"><link rel="prefetch" href="/Myblog/assets/js/262.dfb3c792.js"><link rel="prefetch" href="/Myblog/assets/js/263.f4cf518e.js"><link rel="prefetch" href="/Myblog/assets/js/264.781ddaef.js"><link rel="prefetch" href="/Myblog/assets/js/265.de19b2dd.js"><link rel="prefetch" href="/Myblog/assets/js/267.ab2905aa.js"><link rel="prefetch" href="/Myblog/assets/js/268.92c986bd.js"><link rel="prefetch" href="/Myblog/assets/js/269.71c76057.js"><link rel="prefetch" href="/Myblog/assets/js/27.fc920553.js"><link rel="prefetch" href="/Myblog/assets/js/270.2ff5a0d1.js"><link rel="prefetch" href="/Myblog/assets/js/271.ef50d067.js"><link rel="prefetch" href="/Myblog/assets/js/272.91797797.js"><link rel="prefetch" href="/Myblog/assets/js/273.30e7700b.js"><link rel="prefetch" href="/Myblog/assets/js/274.73ff22dd.js"><link rel="prefetch" href="/Myblog/assets/js/275.ac44db13.js"><link rel="prefetch" href="/Myblog/assets/js/276.70903d6e.js"><link rel="prefetch" href="/Myblog/assets/js/277.3b914109.js"><link rel="prefetch" href="/Myblog/assets/js/278.097c3f28.js"><link rel="prefetch" href="/Myblog/assets/js/279.151c1263.js"><link rel="prefetch" href="/Myblog/assets/js/28.3175b43c.js"><link rel="prefetch" href="/Myblog/assets/js/280.3a460482.js"><link rel="prefetch" href="/Myblog/assets/js/29.04ff8ac6.js"><link rel="prefetch" href="/Myblog/assets/js/3.830d4e3b.js"><link rel="prefetch" href="/Myblog/assets/js/30.35c2a2c3.js"><link rel="prefetch" href="/Myblog/assets/js/31.560bd984.js"><link rel="prefetch" href="/Myblog/assets/js/32.540650f4.js"><link rel="prefetch" href="/Myblog/assets/js/33.6aceab09.js"><link rel="prefetch" href="/Myblog/assets/js/34.15d9c253.js"><link rel="prefetch" href="/Myblog/assets/js/35.7343ce1f.js"><link rel="prefetch" href="/Myblog/assets/js/36.ed5ea85c.js"><link rel="prefetch" href="/Myblog/assets/js/37.31adc67f.js"><link rel="prefetch" href="/Myblog/assets/js/38.5792c04b.js"><link rel="prefetch" href="/Myblog/assets/js/39.31234930.js"><link rel="prefetch" href="/Myblog/assets/js/4.65993a88.js"><link rel="prefetch" href="/Myblog/assets/js/40.5fdec311.js"><link rel="prefetch" href="/Myblog/assets/js/41.65be3791.js"><link rel="prefetch" href="/Myblog/assets/js/42.13836de0.js"><link rel="prefetch" href="/Myblog/assets/js/43.28aa5959.js"><link rel="prefetch" href="/Myblog/assets/js/44.03c1e0f1.js"><link rel="prefetch" href="/Myblog/assets/js/45.332e8634.js"><link rel="prefetch" href="/Myblog/assets/js/46.f427e5c7.js"><link rel="prefetch" href="/Myblog/assets/js/47.5dcb6317.js"><link rel="prefetch" href="/Myblog/assets/js/48.a6c1f16d.js"><link rel="prefetch" href="/Myblog/assets/js/49.f168a0b9.js"><link rel="prefetch" href="/Myblog/assets/js/5.870a4f84.js"><link rel="prefetch" href="/Myblog/assets/js/50.5acdcd14.js"><link rel="prefetch" href="/Myblog/assets/js/51.035c6f15.js"><link rel="prefetch" href="/Myblog/assets/js/52.63ae7398.js"><link rel="prefetch" href="/Myblog/assets/js/53.3500da5e.js"><link rel="prefetch" href="/Myblog/assets/js/54.376bc0c2.js"><link rel="prefetch" href="/Myblog/assets/js/55.0943f2f7.js"><link rel="prefetch" href="/Myblog/assets/js/56.a2c0e8cb.js"><link rel="prefetch" href="/Myblog/assets/js/57.4d8fd8d2.js"><link rel="prefetch" href="/Myblog/assets/js/58.44b903fc.js"><link rel="prefetch" href="/Myblog/assets/js/59.5bb12dae.js"><link rel="prefetch" href="/Myblog/assets/js/6.aceb112c.js"><link rel="prefetch" href="/Myblog/assets/js/60.00d28adb.js"><link rel="prefetch" href="/Myblog/assets/js/61.f7b153e1.js"><link rel="prefetch" href="/Myblog/assets/js/62.bfc0bf9b.js"><link rel="prefetch" href="/Myblog/assets/js/63.1b51cb29.js"><link rel="prefetch" href="/Myblog/assets/js/64.5839bbe7.js"><link rel="prefetch" href="/Myblog/assets/js/65.4567a0f6.js"><link rel="prefetch" href="/Myblog/assets/js/66.f9c91d35.js"><link rel="prefetch" href="/Myblog/assets/js/67.9be20316.js"><link rel="prefetch" href="/Myblog/assets/js/68.93873b76.js"><link rel="prefetch" href="/Myblog/assets/js/69.f480ab21.js"><link rel="prefetch" href="/Myblog/assets/js/7.ec469846.js"><link rel="prefetch" href="/Myblog/assets/js/70.0229dd22.js"><link rel="prefetch" href="/Myblog/assets/js/71.0ee5d354.js"><link rel="prefetch" href="/Myblog/assets/js/72.19f29139.js"><link rel="prefetch" href="/Myblog/assets/js/73.af327a40.js"><link rel="prefetch" href="/Myblog/assets/js/74.24af1f23.js"><link rel="prefetch" href="/Myblog/assets/js/75.ed4eadc8.js"><link rel="prefetch" href="/Myblog/assets/js/76.90c0727b.js"><link rel="prefetch" href="/Myblog/assets/js/77.0f0146fe.js"><link rel="prefetch" href="/Myblog/assets/js/78.65c4c85b.js"><link rel="prefetch" href="/Myblog/assets/js/79.17fe9c6d.js"><link rel="prefetch" href="/Myblog/assets/js/8.688f620d.js"><link rel="prefetch" href="/Myblog/assets/js/80.0806a590.js"><link rel="prefetch" href="/Myblog/assets/js/81.15049286.js"><link rel="prefetch" href="/Myblog/assets/js/82.6494cf61.js"><link rel="prefetch" href="/Myblog/assets/js/83.8318a1f5.js"><link rel="prefetch" href="/Myblog/assets/js/84.2155d0d0.js"><link rel="prefetch" href="/Myblog/assets/js/85.a6f62a77.js"><link rel="prefetch" href="/Myblog/assets/js/86.6f3844b4.js"><link rel="prefetch" href="/Myblog/assets/js/87.217d01d7.js"><link rel="prefetch" href="/Myblog/assets/js/88.a213c368.js"><link rel="prefetch" href="/Myblog/assets/js/89.438ea22e.js"><link rel="prefetch" href="/Myblog/assets/js/9.7b190281.js"><link rel="prefetch" href="/Myblog/assets/js/90.f519bd30.js"><link rel="prefetch" href="/Myblog/assets/js/91.dee914d0.js"><link rel="prefetch" href="/Myblog/assets/js/92.71a7052f.js"><link rel="prefetch" href="/Myblog/assets/js/93.e2e22ff1.js"><link rel="prefetch" href="/Myblog/assets/js/94.a5c2221c.js"><link rel="prefetch" href="/Myblog/assets/js/95.9c997308.js"><link rel="prefetch" href="/Myblog/assets/js/96.7cc45084.js"><link rel="prefetch" href="/Myblog/assets/js/97.496daad5.js"><link rel="prefetch" href="/Myblog/assets/js/98.95f26a15.js"><link rel="prefetch" href="/Myblog/assets/js/99.d03b49e5.js">
+    <link rel="stylesheet" href="/Myblog/assets/css/0.styles.baca3271.css">
+  </head>
+  <body class="theme-mode-light">
+    <div id="app" data-server-rendered="true"><div class="theme-container sidebar-open"><header class="navbar blur"><div title="目录" class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/Myblog/" class="home-link router-link-active"><!----> <span class="site-name">麦仁博客</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/Myblog/" class="nav-link">首页</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端" class="dropdown-title"><a href="/Myblog/web/" class="link-title">前端</a> <span class="title" style="display:none;">前端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>javaScript笔记精选</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/Myblog/pages/03dd97/" class="nav-link">JS常用案例</a></li></ul></li><li class="dropdown-item"><h4>vue学习精选</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/Myblog/pages/0082e9/" class="nav-link">《vue基本知识点》</a></li><li class="dropdown-subitem"><a href="/Myblog/pages/24e9bb/" class="nav-link">《vue3的使用》</a></li></ul></li></ul></div></div><div class="nav-item"><a href="/Myblog/backEnd/" class="nav-link">后端</a></div><div class="nav-item"><a href="/Myblog/englishLife/" class="nav-link">英语</a></div><div class="nav-item"><a href="/Myblog/bookLife/" class="nav-link">读书</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="页面" class="dropdown-title"><a href="/Myblog/ui/" class="link-title">页面</a> <span class="title" style="display:none;">页面</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Myblog/pages/8309a5b876fc95e3/" class="nav-link">HTML</a></li><li class="dropdown-item"><!----> <a href="/Myblog/pages/0a83b083bdf257cb/" class="nav-link">CSS</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="技术" class="dropdown-title"><a href="/Myblog/technology/" class="link-title">技术</a> <span class="title" style="display:none;">技术</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Myblog/pages/9a7ee40fc232253e/" class="nav-link">技术文档</a></li><li class="dropdown-item"><!----> <a href="/Myblog/pages/4c778760be26d8b3/" class="nav-link">GitHub技巧</a></li><li class="dropdown-item"><!----> <a href="/Myblog/pages/117708e0af7f0bd9/" class="nav-link">Nodejs</a></li><li class="dropdown-item"><!----> <a href="/Myblog/pages/41f87d890d0a02af/" class="nav-link">博客搭建</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="更多" class="dropdown-title"><a href="/Myblog/more/" class="link-title">更多</a> <span class="title" style="display:none;">更多</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Myblog/pages/f2a556/" class="nav-link">学习</a></li><li class="dropdown-item"><!----> <a href="/Myblog/pages/aea6571b7a8bae86/" class="nav-link">面试</a></li><li class="dropdown-item"><!----> <a href="/Myblog/pages/2d615df9a36a98ed/" class="nav-link">心情杂货</a></li><li class="dropdown-item"><!----> <a href="/Myblog/pages/baaa02/" class="nav-link">实用技巧</a></li><li class="dropdown-item"><!----> <a href="/Myblog/friends/" class="nav-link">友情链接</a></li></ul></div></div><div class="nav-item"><a href="/Myblog/about/" class="nav-link">关于</a></div><div class="nav-item"><a href="/Myblog/pages/beb6c0bd8a66cea6/" class="nav-link">收藏</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="索引" class="dropdown-title"><a href="/Myblog/archives/" class="link-title">索引</a> <span class="title" style="display:none;">索引</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Myblog/categories/" class="nav-link">分类</a></li><li class="dropdown-item"><!----> <a href="/Myblog/tags/" class="nav-link">标签</a></li><li class="dropdown-item"><!----> <a href="/Myblog/archives/" class="nav-link">归档</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar-hover-trigger"></div> <aside class="sidebar" style="display:none;"><!----> <nav class="nav-links"><div class="nav-item"><a href="/Myblog/" class="nav-link">首页</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端" class="dropdown-title"><a href="/Myblog/web/" class="link-title">前端</a> <span class="title" style="display:none;">前端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>javaScript笔记精选</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/Myblog/pages/03dd97/" class="nav-link">JS常用案例</a></li></ul></li><li class="dropdown-item"><h4>vue学习精选</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/Myblog/pages/0082e9/" class="nav-link">《vue基本知识点》</a></li><li class="dropdown-subitem"><a href="/Myblog/pages/24e9bb/" class="nav-link">《vue3的使用》</a></li></ul></li></ul></div></div><div class="nav-item"><a href="/Myblog/backEnd/" class="nav-link">后端</a></div><div class="nav-item"><a href="/Myblog/englishLife/" class="nav-link">英语</a></div><div class="nav-item"><a href="/Myblog/bookLife/" class="nav-link">读书</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="页面" class="dropdown-title"><a href="/Myblog/ui/" class="link-title">页面</a> <span class="title" style="display:none;">页面</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Myblog/pages/8309a5b876fc95e3/" class="nav-link">HTML</a></li><li class="dropdown-item"><!----> <a href="/Myblog/pages/0a83b083bdf257cb/" class="nav-link">CSS</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="技术" class="dropdown-title"><a href="/Myblog/technology/" class="link-title">技术</a> <span class="title" style="display:none;">技术</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Myblog/pages/9a7ee40fc232253e/" class="nav-link">技术文档</a></li><li class="dropdown-item"><!----> <a href="/Myblog/pages/4c778760be26d8b3/" class="nav-link">GitHub技巧</a></li><li class="dropdown-item"><!----> <a href="/Myblog/pages/117708e0af7f0bd9/" class="nav-link">Nodejs</a></li><li class="dropdown-item"><!----> <a href="/Myblog/pages/41f87d890d0a02af/" class="nav-link">博客搭建</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="更多" class="dropdown-title"><a href="/Myblog/more/" class="link-title">更多</a> <span class="title" style="display:none;">更多</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Myblog/pages/f2a556/" class="nav-link">学习</a></li><li class="dropdown-item"><!----> <a href="/Myblog/pages/aea6571b7a8bae86/" class="nav-link">面试</a></li><li class="dropdown-item"><!----> <a href="/Myblog/pages/2d615df9a36a98ed/" class="nav-link">心情杂货</a></li><li class="dropdown-item"><!----> <a href="/Myblog/pages/baaa02/" class="nav-link">实用技巧</a></li><li class="dropdown-item"><!----> <a href="/Myblog/friends/" class="nav-link">友情链接</a></li></ul></div></div><div class="nav-item"><a href="/Myblog/about/" class="nav-link">关于</a></div><div class="nav-item"><a href="/Myblog/pages/beb6c0bd8a66cea6/" class="nav-link">收藏</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="索引" class="dropdown-title"><a href="/Myblog/archives/" class="link-title">索引</a> <span class="title" style="display:none;">索引</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Myblog/categories/" class="nav-link">分类</a></li><li class="dropdown-item"><!----> <a href="/Myblog/tags/" class="nav-link">标签</a></li><li class="dropdown-item"><!----> <a href="/Myblog/archives/" class="nav-link">归档</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/Myblog/pages/2d20ef/" class="sidebar-link">基本语法</a></li><li><a href="/Myblog/pages/f2c713/" class="sidebar-link">语句摘抄</a></li><li><a href="/Myblog/pages/092cac/" class="sidebar-link">月份&amp;周</a></li><li><a href="/Myblog/pages/b0633e/" class="sidebar-link">过去式and过去分词</a></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>可可晨读</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>每日语句摘抄</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>雅思chatGpt</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>TED</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading open"><span>2024年部分</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/Myblog/pages/91b104/" class="sidebar-link">20240604</a></li><li><a href="/Myblog/pages/b78e98/" class="sidebar-link">20240605</a></li><li><a href="/Myblog/pages/059854/" class="sidebar-link">20240606</a></li><li><a href="/Myblog/pages/1e6642/" class="sidebar-link">20240607</a></li><li><a href="/Myblog/pages/401708/" class="sidebar-link">20240608</a></li><li><a href="/Myblog/pages/5a2015/" class="sidebar-link">20240610</a></li><li><a href="/Myblog/pages/a0d14e/" aria-current="page" class="active sidebar-link">20240611</a></li><li><a href="/Myblog/pages/0d7bb7/" class="sidebar-link">20240612</a></li><li><a href="/Myblog/pages/bf2e57/" class="sidebar-link">20240613</a></li><li><a href="/Myblog/pages/7850ad/" class="sidebar-link">20240614</a></li><li><a href="/Myblog/pages/e2edc0/" class="sidebar-link">20240615</a></li><li><a href="/Myblog/pages/f9bd43/" class="sidebar-link">20240617</a></li><li><a href="/Myblog/pages/c15f05/" class="sidebar-link">20240617</a></li></ul></section></li></ul></section></li></ul> </aside> <div><main class="page"><div class="theme-vdoing-wrapper "><div class="articleInfo-wrap" data-v-06225672><div class="articleInfo" data-v-06225672><ul class="breadcrumbs" data-v-06225672><li data-v-06225672><a href="/Myblog/" title="首页" class="iconfont icon-home router-link-active" data-v-06225672></a></li> <li data-v-06225672><a href="/Myblog/categories/?category=%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0" title="分类" data-v-06225672>英语学习</a></li><li data-v-06225672><a href="/Myblog/categories/?category=TED" title="分类" data-v-06225672>TED</a></li><li data-v-06225672><a href="/Myblog/categories/?category=2024%E5%B9%B4%E9%83%A8%E5%88%86" title="分类" data-v-06225672>2024年部分</a></li></ul> <div class="info" data-v-06225672><!----> <div title="创建时间" class="date iconfont icon-riqi" data-v-06225672><a href="javascript:;" data-v-06225672>2024-06-21</a></div> <!----></div></div></div> <!----> <div class="content-wrapper"><!----> <h1><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAABKFJREFUSA3tVl1oFVcQnrMbrak3QUgkya1akpJYcrUtIqW1JvFBE9LiQ5v6JmJpolbMg32rVrhgoYK0QiMY6i9Y6EMaW5D+xFJaTYItIuK2Kr3+BJNwkxBj05sQY3b3nM6cs2dv9t7NT/vQJw/sndk5M/PNzJkzewGerP+pAmy+ON8lLzUJgA8ZYxYIYZmGYRnctDaWvJJAmTtfP1pvXsBCCPP8QFcCaRkZYACgDZFO4stNIcBCajEOlmmC9XpJ9bAGCaPaPmzPl32dvLSVu3BWCTQs0XQQ6g0DYgwLIoAZbBCdW/i+781o1VVlm/410mw4h06Y7bIPHNyWDyL4FHkX03Q8SrzNhZTZriieckWt7cL6MM85YcLpsi/7O9/iXFT6MswI0DmmpkSaJ0qLxFIm3+i1THHB3zmBH3PYx9CcykcLOeQVVa7QtdxTgQgEleX2AjHYfwA+2ddV77ruGoJUbhGDI09YSNXyMpUt5ylOzxgbUmtOp7NmbNt8v3arjTBfYELmLUV+M+nSawNNAUqpT3ClJWg5I3BLT+cGW/DXNGCa6tx1aakCGEigArTn4TDIPdrXXYKCZNrHLMCOEPvHBlLQ99s9eHB7EB6NTki73CVPQ2F5MSx/uRQixfmq7rK0wYD8w8E905bnPDfwoWs/rfv93NWN/ZfvwsLIU7A09gxECyISeGJkHAau98L97tuw7NXnoPyNF8FcYGLGKsOs0mN3OEyec9esGW/ZEl945dTP34wlR2FZVQWU1q0Cw8Tr7p+hgLLNL0FPxx/Q35mA8aEUrH6nCgwEl0tn7wUiZYJnNRh6DK4UH/k0lfyrsBKdPVv/AriGIQcEDQZ65LBAGe2Rzui9Ybjz7XUppz1/uKBbyVPGkN3ZAeC6hr0x7Nr38N5+EqkoOm17xpoqR9ohQF55ERSvr4Dkr3chNfC3DMzGJlNBElW8w9nsGQvhNGIzDkXzCg8cLK951xHsFBlTJspJNi3ZFIMF2AeDV3q8DNOB+YHi6QTrChDIWDBRi5U5f+ZMfJLu3ccrqxtdxk4SKH336LFxSmkqefwU5T8fhdSdQf9IVKD6aNiwI/hnmcAZ91isYMJIaCUCx9W098+LgruikeTqzqqxKPUwqJyCPJiyemVVZBOijDGjD38Os0jOiSPL1z3SPjXNANbiNPXAdzTfukjjuknNBbyz3nwgTd3AVFqUJ5hpHlq9MveLnWwttUfoygBmvVjuikxND3znrhsELnZk7k+OjIGxeNEkomyLVta0xxn+HZhjBc4YZ/AFjHjz9u3xRZl2BN4aq9nFwWh16IrQ1aHHEd3j1+4/dB9OtH4e29A2H1DyHQRmOSfQZ1Fy7MHBTGB6J/Djq6p3OxyO2cB+4Car7v/o3GXgfAkj23+x9ID1Teoamo/SXcbvSf2PX7Vc8DdCmE1vN9di+32P9/5YR3vLnhCVGUWBjEkr3yh4H8v9CzmsbdhzOKzsJKM90iFdaTMjRPhGVsakRvOaRidljo6H6G7j+ctrJpsP+4COhDIl0La2+FS4+5mlocBaXY5QnGZysIBYoeSsl5qQzrSj/cgNrfuEzlWBfwA+EjrZyWUvpAAAAABJRU5ErkJggg==">20240611<!----></h1> <!----> <div class="theme-vdoing-content content__default"><p>I'm Yoram Youvel.</p> <p>I'm a psychiatrist and neuroscientist at the Hebrew University of Jerusalem.</p> <p>And when I was 14 years old, my father died.</p> <p>I was sitting in class
+when my mother and my grandfather knocked on the door
+and asked me out to the corridor.</p> <p>&quot;Your father's very sick,&quot; my mother said.</p> <p>&quot;Your father is dead.&quot;</p> <p>And then I felt it.</p> <p>A crushing pain in my chest.</p> <p>I can still feel a glimpse of it whenever I think of my father.</p> <p>He was a doctor, a scientist, a paratrooper.</p> <p>He was a young, strong, happy, healthy man.</p> <p>He was my hero.</p> <p>And his death broke my heart.</p> <p>Do you remember the pain you felt when someone broke your heart?</p> <p>When your best friend or your mother died?</p> <p>Or the man you loved told you that he doesn't love you anymore.</p> <p>You probably do.</p> <p>But why do we feel mental pain at all?</p> <p>And what's the relationship between physical and mental pain?</p> <p>And most importantly, how can we make mental pain better?</p> <p>Together with many scientists and physicians,
+I spent years searching for answers to these questions.</p> <p>Now, growing up, I never heard the words,
+&quot;We want you to be a doctor and a brain scientist like your father.&quot;</p> <p>But somehow that's what happened.</p> <p>Twelve years after my father died,
+I was a graduate student at Dr. Eric Kandel’s lab
+at Columbia University.</p> <p>Eric, who won the Nobel Prize
+for his work on the molecular basis of memory,
+was the ultimate mentor.</p> <p>Passionate, energetic and inspiring.</p> <p>Under his guidance, I studied a receptor.</p> <p>It's a protein that's part of a synapse.</p> <p>And synapses are structures through which nerve cells communicate with each other.</p> <p>Now that receptor was a GPCR.</p> <p>That's a G protein coupled receptor.</p> <p>I'll explain what this means in a minute
+and then you'll understand what this stack of markers is doing here.</p> <p>And when I did that,
+I didn't really realize that work on that receptor,
+which seemed completely unrelated to my future work
+as a clinical psychiatrist,
+would one day help us in our search for better treatments
+for physical and mental pain.</p> <p>Now a big step along that way was the work of Jaak Panksepp,
+my other great scientific mentor.</p> <p>In a classical experiment,
+Panksepp separated puppies from their mothers for 15 minutes.
+Never more than that because he loved animals.</p> <p>When puppies lose their mothers,
+they make a sound which is called the separation distress cry.</p> <p>And it goes like this.</p> <p>(Imitates puppy wailing)
+Puppies do it,
+kittens do it, babies do it.</p> <p>All young mammals do it
+when they're in pain or when they miss their mothers.</p> <p>And we all know how this cry makes us feel inside.</p> <p>Panksepp and his colleagues then traced the brain circuits
+that produce these cries in guinea pigs,
+and they made a startling discovery.</p> <p>That these are the very same circuits that are active when humans feel sad
+and when they experience depression.</p> <p>And these circuits are also part of the brain's pain matrix
+that mediates our sensations of physical and mental pain.</p> <p>But why are we born with this terrible gift
+hardwired into our brains?</p> <p>Well, probably because like any pain, mental pain is an alarm system.
+Its task is to prevent damage.</p> <p>When babies lose their mothers, they hurt and they cry.</p> <p>Which brings their mothers back,
+and it also makes them seek their mothers.</p> <p>In the wild, this is life-saving.</p> <p>Puppies and babies cannot survive without their mothers.</p> <p>So now we know why we have mental pain.</p> <p>It is the glue that keeps us together in couples, in families and communities.</p> <p>And when someone we love goes away or is taken away from us,
+it's this pain which draws us back together.</p> <p>And once we realize this,
+then we can answer an age-old question
+that poets and philosophers have been asking for thousands of years.</p> <p>Does love always hurt?</p> <p>What do you think?</p> <p>Does love always hurt?</p> <p>Yes, love always hurts, of course.</p> <p>Because that's what it's supposed to do.</p> <p>Mental pain is simply the high price,
+the very high price, that we pay for our ability to love.</p> <p>And personally,
+and, you know, I've been around the block a couple of times,
+personally, I think it's worth it.</p> <p>But we're not entirely defenseless against pain
+because our brains produce endorphins
+or endogenous opioids,
+our very own feel-good molecules,
+the natural remedy for both physical and mental pain.</p> <p>Endorphins are released in the brain during aerobic exercise
+or when we're close to someone we love,
+and immediately after severe injuries.</p> <p>And we now know what endorphins do,
+they attach to special receptors in the brain,
+and the most important among them are mu opioid receptors.</p> <p>And just like the receptor I worked on in Kandel's lab,
+mu opioid receptors are GPCR.
+Here's how they work.</p> <p>Like all GPCRs, mu opioid receptors are made of seven spirals
+or loops that are stacked together,
+sticking through both sides of the cell membrane.</p> <p>Like this, OK.</p> <p>And when endorphins attach to mu opioid receptors from the outside,
+they cause them to change their shape.</p> <p>Like this, OK?</p> <p>And this triggers a series of events inside the neurons
+which eventually ease the pain.</p> <p>Now, forget the molecules for a second.</p> <p>When you hug someone you love
+who is suffering from severe physical or mental pain,
+you actually cause her brain to release endorphins.</p> <p>They attach to mu opioid receptors in her synapses and turn them on,
+and they soothe her pain.</p> <p>And yet, sometimes mental pain gets so intense
+that no amount of love can soothe it.</p> <p>But medicine has powerful drugs that can ease any physical pain.
+These are the narcotics or opioids like morphine.</p> <p>Narcotics work mainly by activating mu opioid receptors.</p> <p>But if so, can narcotics also treat the pain of separation?</p> <p>It was Jaak Panksepp who found the answer.</p> <p>Panksepp gave his puppies in a separation experiment
+tiny, tiny doses of morphine,
+lower than the lowest doses that are used to treat physical pain,
+and his puppies immediately stopped crying
+and started playing with each other as if they no longer miss their mothers.</p> <p>Let's go to humans now.</p> <p>When mental pain in humans becomes too intense to bear
+people, some people, will do anything to stop it,
+even try to kill themselves.</p> <p>Indeed, and I'm saying this as a clinical psychiatrist,
+unbearable mental pain is a huge risk factor for suicide.</p> <p>But if narcotics treat physical pain,
+and if they can soothe the mental pain of separation,
+can they also help suicidal people become less suicidal?</p> <p>A few years ago,
+together with Panksepp and other colleagues,
+my research team conducted a clinical trial.</p> <p>We gave people who were severely suicidal very low doses of a narcotic drug,
+called buprenorphine, for four weeks.</p> <p>We discovered that tiny, tiny doses of buprenorphine,
+which are too low to treat physical pain,
+helped many of them become less suicidal.</p> <p>But narcotics are extremely dangerous drugs.</p> <p>They may cause addiction, and they're lethal in overdose.</p> <p>In contrast, endorphins are not lethal in overdose,
+and they're much less likely to cause addiction.</p> <p>So narcotics and endorphins probably activate mu opioid receptors
+in different ways.</p> <p>Now, if we could find drugs that activate mu opioid receptors
+in a way that resembles how endorphins activate them,
+we might be able to treat physical and mental pain
+without some of the dangerous side effects of narcotics.</p> <p>And when my research team came to this conclusion,
+I suddenly remembered what I had learned in Kandel's lab many, many years ago.
+Some GPCRs can be activated by two different drugs at the same time.</p> <p>And when this happens,
+the result may be different from what happens
+when they're activated by just one drug.</p> <p>So our research team then used molecular computing technologies
+to create a detailed virtual model of the human mu opioid receptor.</p> <p>And then, with the help of programs known as molecular docking algorithms,
+we screened thousands of existing drugs on a virtual model of the receptor.</p> <p>Eventually, we found a way to teach an old dog,
+that's the human mu opioid receptor,
+some new tricks.</p> <p>We found two drugs that are not narcotics,
+and they work together in very, very small doses
+to activate the human mu opioid receptor.</p> <p>I'm not telling you their names,
+because we still have to run many tests and clinical trials
+before we can be certain
+that their combination does exactly what we think it does.</p> <p>But both of these drugs have been around for many, many years,
+and they've been used by millions of people.</p> <p>So we know that they're safe for humans.
+Here's our bottom line.</p> <p>Let's summarize what we've seen.</p> <p>First and foremost, mental pain is real.</p> <p>It's hardwired into our brains.</p> <p>And mental pain is an essential part of mourning and depression and sadness.</p> <p>And when it gets severe enough, it can actually make people suicidal.</p> <p>Endorphins are brain's natural remedy for physical and mental pain,
+and they work mainly, not exclusively,
+but mainly by activating mu opioid receptors.</p> <p>Now, narcotics also activate mu opioid receptors,
+but in a way that causes addiction and can lead to death.</p> <p>And this is why narcotics are so dangerous.</p> <p>New computational technologies have helped us identify two existing drugs
+that together may treat physical and mental pain
+without some of the severe side effects of narcotics.</p> <p>However, this is still a work in progress.</p> <p>It would be a few years before it may become an approved treatment.</p> <p>But, and this is the last thing I'm going to say,
+regardless of drugs,
+you have the ability to help family and friends
+who are in severe physical or mental pain.</p> <p>Thank you very much.</p> <p>(Applause)</p> <p>我是约拉姆·尤维尔。
+&quot;我是耶路撒冷希伯来大学的精神病学家和神经科学家
+。&quot;
+&quot;当我14岁的时候，
+我的父亲去世了。&quot;
+我正在上课，
+&quot;妈妈和爷爷
+敲门，&quot;
+请我到走廊去。
+“你父亲病得很重，”我母亲说。
+“你父亲死了。”
+然后我感觉到了。
+我的胸口传来一阵剧痛。
+&quot;
+每当我想起我的父亲时，我仍然能感觉到这一点。&quot;
+&quot;他是一名医生、
+科学家、伞兵。&quot;
+&quot;他是一个年轻、强壮、
+快乐、健康的人。&quot;
+他是我的英雄。
+他的死让我心碎。
+&quot;你还记得
+有人伤了你的心时你所感受到的痛苦吗？&quot;
+&quot;你最好的朋友
+或你的母亲什么时候去世的？&quot;
+&quot;或者你爱的人告诉你
+他不再爱你了。&quot;
+你可能会。
+但为什么我们会感到精神上的痛苦呢？
+&quot;
+身体上的痛苦和精神上的痛苦之间有什么关系？&quot;
+&quot;最重要的是，
+我们怎样才能减轻精神上的痛苦？ 我&quot;
+&quot;与许多科学家
+和医生一起&quot;
+&quot;花了数年时间寻找
+这些问题的答案。&quot;
+现在，在成长过程中，我从未听过这样的话：
+&quot;“我们希望你像你父亲一样成为一名医生和脑
+科学家。”&quot;
+但不知何故，事情就是这样发生的。
+我父亲去世十二年后，
+&quot;我是哥伦比亚大学
+埃里克·坎德尔博士实验室的研究生&quot;
+。
+埃里克（Eric）
+&quot;因其在记忆分子基础上的研究而获得诺贝尔奖
+，他&quot;
+是最终的导师。
+充满激情、充满活力、鼓舞人心。
+在他的指导下，我研究了一种受体。
+它是一种蛋白质，是突触的一部分。
+&quot;突触是
+神经细胞相互交流的结构。&quot;
+现在那个受体是 GPCR。
+那是G蛋白偶联受体。
+我将在一分钟内解释这意味着什么，
+&quot;然后您就会明白
+这堆标记在这里的作用。&quot;
+当我这样做时，
+&quot;我并没有真正意识到
+对这种受体的研究，&quot;
+&quot;这似乎与
+我未来&quot;
+作为一名临床精神病学家的工作完全无关，有一天
+&quot;会帮助我们
+寻找更好的治疗&quot;
+身体和精神疼痛的方法。
+&quot;现在，
+&quot;
+我的另一位伟大的科学导师雅克·潘克塞普 (Jaak Panksepp) 的工作在这条路上迈出了一大步。
+在一项经典实验中，
+&quot;潘克塞普将小狗
+与母亲分开 15 分钟。&quot;
+&quot;不仅如此，
+因为他热爱动物。&quot;
+当小狗失去母亲时，
+&quot;它们会发出一种称为
+分离痛苦哭声的声音。 事情&quot;
+是这样的。
+（模仿小狗的哭声）
+小狗会这样做，
+小猫会这样做，婴儿会这样做。
+所有年轻的哺乳动物
+&quot;在感到疼痛
+或想念母亲时都会这样做。&quot;
+&quot;我们都知道这种哭泣
+让我们内心有什么感受。&quot;
+&quot;潘克塞普和他的同事
+随后追踪了&quot;
+豚鼠产生这些哭声的大脑回路，
+他们有了一个惊人的发现。
+&quot;
+当人类感到悲伤&quot;
+和抑郁时，这些回路就会被激活。
+&quot;这些回路也是
+大脑疼痛矩阵的一部分，&quot;
+&quot;调节我们对
+身体和精神疼痛的感觉。&quot;
+&quot;但为什么我们生来大脑中就带有
+这种可怕的天赋呢&quot;
+？
+&quot;嗯，可能是因为像任何疼痛一样，
+精神上的疼痛也是一个警报系统。&quot;
+它的任务是防止损坏。
+&quot;当婴儿失去母亲时，
+他们会受伤并哭泣。&quot;
+这让他们的母亲回来了，
+也让他们寻找他们的母亲。
+在野外，这可以挽救生命。 没有母亲，
+&quot;小狗和婴儿就无法生存
+。&quot;
+现在我们知道为什么我们会有精神痛苦了。
+&quot;它是将我们
+夫妻、家庭和社区凝聚在一起的粘合剂。&quot;
+&quot;当我们所爱的人离开
+或被带走时，&quot;
+&quot;正是这种痛苦将
+我们拉回到一起。&quot;
+一旦我们意识到这一点，
+我们就可以回答
+&quot;诗人和哲学家
+几千年来一直在问的一个古老的问题。&quot;
+爱情总是让人受伤吗？
+你怎么认为？
+爱情总是让人受伤吗？
+是的，爱当然总是让人受伤。
+因为这就是它应该做的。
+精神上的痛苦只是我们为爱的能力付出的高昂代价，
+&quot;非常高昂的代价
+。&quot;
+就我个人而言，
+&quot;你知道，我已经
+来过这里好几次了，&quot;
+我个人认为这是值得的。
+&quot;但我们
+对疼痛并非完全毫无防御能力，&quot;
+因为我们的大脑会产生内啡肽
+或内源性阿片类药物，这是
+我们自己感觉良好的分子，是治疗
+&quot;
+身体和精神疼痛的自然疗法。&quot;
+&quot;
+在有氧运动期间&quot;
+或当我们靠近我们所爱的人时，
+以及在严重受伤后，大脑会立即释放内啡肽。
+我们现在知道内啡肽的作用，
+&quot;它们附着
+在大脑中的特殊受体上，其中&quot;
+&quot;最重要的
+是μ阿片受体。&quot;
+&quot;就像
+我在 Kandel 实验室研究的受体一样，&quot;
+μ 阿片受体是 GPCR。
+以下是它们的工作原理。
+&quot;与所有 GPCR 一样，μ 阿片受体
+由七个&quot;
+堆叠在一起的螺旋或环组成，
+&quot;粘在
+细胞膜的两侧。&quot;
+像这样，好吧。
+&quot;当内啡肽
+从外部附着在 mu 阿片受体上时，&quot;
+它们会导致它们改变形状。
+像这样，好吗？
+&quot;这会触发
+神经元内部的一系列事件，&quot;
+最终缓解疼痛。
+现在，暂时忘记分子。
+当你拥抱一个正在
+&quot;遭受严重
+身体或精神痛苦的你所爱的人时，&quot;
+&quot;你实际上会导致她的大脑
+释放内啡肽。&quot;
+&quot;它们附着
+在她突触中的 mu 阿片受体上并打开它们，&quot;
+从而缓解她的疼痛。
+&quot;然而，有时精神上的痛苦
+会变得如此强烈，&quot;
+以至于再多的爱也无法缓解。
+&quot;但医学上有强大的药物
+可以缓解任何身体疼痛。&quot;
+&quot;这些是麻醉剂
+或阿片类药物，如吗啡。&quot;
+&quot;麻醉药主要通过激活
+μ阿片受体发挥作用。&quot;
+&quot;但如果是这样，麻醉剂也能治疗
+分离之痛吗？&quot;
+雅克·潘克塞普找到了答案。
+&quot;潘克塞普
+在一项分离实验中给他的小狗服用了&quot;
+极小剂量的吗啡，
+&quot;低于
+治疗身体疼痛的最低剂量，&quot;
+&quot;他的小狗立即
+停止哭泣&quot;
+&quot;并开始互相玩耍，
+好像它们不再想念它们的母亲一样。&quot;
+现在让我们转向人类。
+&quot;当人类的精神痛苦
+变得太强烈而难以忍受时&quot;
+&quot;，有些人
+会想尽办法阻止它，&quot;
+甚至试图自杀。
+&quot;事实上，
+作为一名临床精神病学家，我是这么说的，&quot;
+&quot;难以忍受的精神痛苦
+是自杀的一个巨大危险因素。&quot;
+但是，如果麻醉剂可以治疗身体上的疼痛，
+&quot;并且可以缓解
+分离带来的精神上的痛苦，那么&quot;
+&quot;它们是否也可以帮助有自杀倾向的人
+减少自杀倾向呢？&quot;
+几年前，我的研究团队
+&quot;与 Panksepp
+和其他同事一起&quot;
+&quot;
+进行了一项临床试验。&quot;
+&quot;我们给有严重自杀倾向的人服用
+非常低剂量的麻醉药物，&quot;
+称为丁丙诺啡，为期四个星期。
+&quot;我们发现，
+丁丙诺啡的剂量太低，&quot;
+不足以治疗身体疼痛，但却
+帮助许多人减少了自杀倾向。
+&quot;但麻醉品是极其
+危险的药物。&quot;
+&quot;它们可能会导致成瘾，
+过量服用会致命。&quot;
+&quot;相比之下，内啡肽
+过量服用并不致命，&quot;
+&quot;而且
+引起成瘾的可能性也小得多。&quot;
+&quot;因此麻醉剂和内啡肽可能
+&quot;
+以不同的方式激活μ阿片受体。
+&quot;现在，如果我们能找到以类似于内啡肽
+激活μ阿片受体的方式激活μ阿片&quot;
+&quot;
+受体的药物，&quot;
+&quot;我们也许能够治疗
+身体和精神上的疼痛，&quot;
+&quot;而不会产生
+麻醉剂的一些危险副作用。&quot;
+&quot;当我的研究团队
+得出这个结论时，&quot;
+&quot;我突然想起了
+很多很多年前我在坎德尔实验室学到的东西。&quot;
+&quot;一些 GPCR 可以
+同时被两种不同的药物激活。&quot;
+当这种情况发生时，
+&quot;结果可能与
+&quot;
+仅用一种药物激活它们时发生的结果不同。
+&quot;因此，我们的研究团队随后使用
+分子计算技术&quot;
+&quot;创建了
+人类 mu 阿片受体的详细虚拟模型。&quot;
+&quot;然后，在
+分子对接算法程序的帮助下，&quot;
+&quot;我们
+在受体的虚拟模型上筛选了数千种现有药物。&quot;
+&quot;最终，我们找到了一种方法
+来教老狗，&quot;
+即人类μ阿片受体，
+一些新技巧。
+我们发现了两种非麻醉药的药物，
+&quot;它们
+以非常非常小的剂量一起发挥作用，&quot;
+激活人类μ阿片受体。
+我不会告诉你它们的名字，
+&quot;因为我们仍然需要进行
+许多测试和临床试验，&quot;
+然后才能确定
+&quot;它们的组合
+确实如我们所认为的那样。&quot;
+&quot;但这两种药物已经
+存在很多年了，&quot;
+&quot;并且已经被
+数百万人使用。&quot;
+所以我们知道它们对人类是安全的。
+这是我们的底线。
+让我们总结一下我们所看到的。
+首先，精神上的痛苦是真实存在的。
+它已经根植于我们的大脑中。
+&quot;精神痛苦是
+哀悼、抑郁和悲伤的重要组成部分。&quot;
+&quot;当它变得足够严重时，
+它实际上会让人产生自杀倾向。&quot;
+&quot;内啡肽是大脑治疗
+身体和精神疼痛的天然药物，&quot;
+它们主要
+&quot;但不完全是通过激活
+μ阿片受体来发挥作用。&quot;
+&quot;现在，麻醉剂也会激活
+μ阿片受体，&quot;
+&quot;但会导致成瘾
+并可能导致死亡。&quot;
+&quot;这就是为什么麻醉品
+如此危险。&quot;
+&quot;新的计算技术帮助
+我们确定了两种现有的药物，它们&quot;
+&quot;可以一起治疗
+身体和精神上的疼痛，而&quot;
+&quot;不会产生
+麻醉剂的一些严重副作用。&quot;
+然而，这仍然是一项正在进行的工作。 它
+&quot;可能需要几年时间才能
+成为批准的治疗方法。&quot;
+&quot;但是，这是我要说的最后一件事
+，&quot;
+无论药物如何，
+&quot;您都有能力
+帮助遭受&quot;
+严重身体或精神痛苦的家人和朋友。
+非常感谢。
+（掌声）</p></div></div> <!----> <div class="page-edit"><!----> <!----> <!----></div> <div class="page-nav-wapper"><div class="page-nav-centre-wrap"><a href="/Myblog/pages/5a2015/" class="page-nav-centre page-nav-centre-prev"><div class="tooltip">20240610</div></a> <a href="/Myblog/pages/0d7bb7/" class="page-nav-centre page-nav-centre-next"><div class="tooltip">20240612</div></a></div> <div class="page-nav"><p class="inner"><span class="prev">
+        ←
+        <a href="/Myblog/pages/5a2015/" class="prev">20240610</a></span> <span class="next"><a href="/Myblog/pages/0d7bb7/">20240612</a>→
+      </span></p></div></div></div> <div class="article-list"><div class="article-title"><a href="/Myblog/archives/" class="iconfont icon-bi">最近更新</a></div> <div class="article-wrapper"><dl><dd>01</dd> <dt><a href="/Myblog/pages/059854/"><div>
+            20240606
+            <!----></div></a> <span class="date">06-21</span></dt></dl><dl><dd>02</dd> <dt><a href="/Myblog/pages/5a2015/"><div>
+            20240610
+            <!----></div></a> <span class="date">06-21</span></dt></dl><dl><dd>03</dd> <dt><a href="/Myblog/pages/bf2e57/"><div>
+            20240613
+            <!----></div></a> <span class="date">06-21</span></dt></dl> <dl><dd></dd> <dt><a href="/Myblog/archives/" class="more">更多文章&gt;</a></dt></dl></div></div></main></div> <div class="footer"><!----> 
+  Theme by
+  <a href="https://github.com/xugaoyi/vuepress-theme-vdoing" target="_blank" title="本站主题">Vdoing</a> <!----></div> <div class="buttons"><div title="返回顶部" class="button blur go-to-top iconfont icon-fanhuidingbu" style="display:none;"></div> <div title="去评论" class="button blur go-to-comment iconfont icon-pinglun" style="display:none;"></div> <div title="主题模式" class="button blur theme-mode-but iconfont icon-zhuti"><ul class="select-box" style="display:none;"><li class="iconfont icon-zidong">
+          跟随系统
+        </li><li class="iconfont icon-rijianmoshi">
+          浅色模式
+        </li><li class="iconfont icon-yejianmoshi">
+          深色模式
+        </li><li class="iconfont icon-yuedu">
+          阅读模式
+        </li></ul></div></div> <!----> <!----> <!----></div><div class="global-ui"></div></div>
+    <script src="/Myblog/assets/js/app.0550b311.js" defer></script><script src="/Myblog/assets/js/2.9f56fe95.js" defer></script><script src="/Myblog/assets/js/266.99826fba.js" defer></script>
+  </body>
+</html>
