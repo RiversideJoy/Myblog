@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>20240613 | 麦仁博客</title>
+    <meta name="generator" content="VuePress 1.9.9">
+    
+    <meta name="description" content="记录前端知识、读书学习">
+    
+    <link rel="preload" href="/Myblog/assets/css/0.styles.baca3271.css" as="style"><link rel="preload" href="/Myblog/assets/js/app.bdfc21ba.js" as="script"><link rel="preload" href="/Myblog/assets/js/2.9f56fe95.js" as="script"><link rel="preload" href="/Myblog/assets/js/270.73a84ed7.js" as="script"><link rel="prefetch" href="/Myblog/assets/js/10.f58ea54b.js"><link rel="prefetch" href="/Myblog/assets/js/100.897570f4.js"><link rel="prefetch" href="/Myblog/assets/js/101.00ae10ef.js"><link rel="prefetch" href="/Myblog/assets/js/102.e9add558.js"><link rel="prefetch" href="/Myblog/assets/js/103.a7a43f16.js"><link rel="prefetch" href="/Myblog/assets/js/104.4e88af52.js"><link rel="prefetch" href="/Myblog/assets/js/105.30a26ab2.js"><link rel="prefetch" href="/Myblog/assets/js/106.b8c7ad22.js"><link rel="prefetch" href="/Myblog/assets/js/107.79aa2256.js"><link rel="prefetch" href="/Myblog/assets/js/108.982824eb.js"><link rel="prefetch" href="/Myblog/assets/js/109.2d0d46f2.js"><link rel="prefetch" href="/Myblog/assets/js/11.3ed0519f.js"><link rel="prefetch" href="/Myblog/assets/js/110.04e43136.js"><link rel="prefetch" href="/Myblog/assets/js/111.9ff7b0a5.js"><link rel="prefetch" href="/Myblog/assets/js/112.5bf1cbb3.js"><link rel="prefetch" href="/Myblog/assets/js/113.8c0011ca.js"><link rel="prefetch" href="/Myblog/assets/js/114.b5561d5e.js"><link rel="prefetch" href="/Myblog/assets/js/115.1ae1c9c2.js"><link rel="prefetch" href="/Myblog/assets/js/116.f30c83b3.js"><link rel="prefetch" href="/Myblog/assets/js/117.2194e172.js"><link rel="prefetch" href="/Myblog/assets/js/118.d577f643.js"><link rel="prefetch" href="/Myblog/assets/js/119.27b0d22d.js"><link rel="prefetch" href="/Myblog/assets/js/12.fd89adb6.js"><link rel="prefetch" href="/Myblog/assets/js/120.0f79cc64.js"><link rel="prefetch" href="/Myblog/assets/js/121.4954db89.js"><link rel="prefetch" href="/Myblog/assets/js/122.6f11d940.js"><link rel="prefetch" href="/Myblog/assets/js/123.6ab1aa41.js"><link rel="prefetch" href="/Myblog/assets/js/124.59abb176.js"><link rel="prefetch" href="/Myblog/assets/js/125.b74bd101.js"><link rel="prefetch" href="/Myblog/assets/js/126.eea9cdfa.js"><link rel="prefetch" href="/Myblog/assets/js/127.86da2abb.js"><link rel="prefetch" href="/Myblog/assets/js/128.2bc863f7.js"><link rel="prefetch" href="/Myblog/assets/js/129.35621653.js"><link rel="prefetch" href="/Myblog/assets/js/13.76c75236.js"><link rel="prefetch" href="/Myblog/assets/js/130.92f01d32.js"><link rel="prefetch" href="/Myblog/assets/js/131.76202bac.js"><link rel="prefetch" href="/Myblog/assets/js/132.8d4eb1a3.js"><link rel="prefetch" href="/Myblog/assets/js/133.304de393.js"><link rel="prefetch" href="/Myblog/assets/js/134.37e1bffb.js"><link rel="prefetch" href="/Myblog/assets/js/135.9c08eb1e.js"><link rel="prefetch" href="/Myblog/assets/js/136.9805f814.js"><link rel="prefetch" href="/Myblog/assets/js/137.69b5409c.js"><link rel="prefetch" href="/Myblog/assets/js/138.c5cb7b31.js"><link rel="prefetch" href="/Myblog/assets/js/139.e3ec6893.js"><link rel="prefetch" href="/Myblog/assets/js/14.531e28b7.js"><link rel="prefetch" href="/Myblog/assets/js/140.d51bf90a.js"><link rel="prefetch" href="/Myblog/assets/js/141.b80d971f.js"><link rel="prefetch" href="/Myblog/assets/js/142.dd92d82d.js"><link rel="prefetch" href="/Myblog/assets/js/143.eecef646.js"><link rel="prefetch" href="/Myblog/assets/js/144.df02ca04.js"><link rel="prefetch" href="/Myblog/assets/js/145.e0b6b9df.js"><link rel="prefetch" href="/Myblog/assets/js/146.24b987f6.js"><link rel="prefetch" href="/Myblog/assets/js/147.8e7a4c3e.js"><link rel="prefetch" href="/Myblog/assets/js/148.15b28ea2.js"><link rel="prefetch" href="/Myblog/assets/js/149.af5048a5.js"><link rel="prefetch" href="/Myblog/assets/js/15.3c8b48b4.js"><link rel="prefetch" href="/Myblog/assets/js/150.6abe697d.js"><link rel="prefetch" href="/Myblog/assets/js/151.96a2c768.js"><link rel="prefetch" href="/Myblog/assets/js/152.eafea813.js"><link rel="prefetch" href="/Myblog/assets/js/153.c102d1e2.js"><link rel="prefetch" href="/Myblog/assets/js/154.6d8be270.js"><link rel="prefetch" href="/Myblog/assets/js/155.775e43a3.js"><link rel="prefetch" href="/Myblog/assets/js/156.34222e80.js"><link rel="prefetch" href="/Myblog/assets/js/157.1500e824.js"><link rel="prefetch" href="/Myblog/assets/js/158.8c8c5003.js"><link rel="prefetch" href="/Myblog/assets/js/159.f5d9c391.js"><link rel="prefetch" href="/Myblog/assets/js/16.500c86f5.js"><link rel="prefetch" href="/Myblog/assets/js/160.d38bd650.js"><link rel="prefetch" href="/Myblog/assets/js/161.acf12d2c.js"><link rel="prefetch" href="/Myblog/assets/js/162.1d4e5863.js"><link rel="prefetch" href="/Myblog/assets/js/163.97256930.js"><link rel="prefetch" href="/Myblog/assets/js/164.2e8d80d3.js"><link rel="prefetch" href="/Myblog/assets/js/165.d95214eb.js"><link rel="prefetch" href="/Myblog/assets/js/166.a7c787fb.js"><link rel="prefetch" href="/Myblog/assets/js/167.904a84c2.js"><link rel="prefetch" href="/Myblog/assets/js/168.614c0d29.js"><link rel="prefetch" href="/Myblog/assets/js/169.1ab42fd2.js"><link rel="prefetch" href="/Myblog/assets/js/17.90e4b915.js"><link rel="prefetch" href="/Myblog/assets/js/170.9213a9bf.js"><link rel="prefetch" href="/Myblog/assets/js/171.3d4a07fe.js"><link rel="prefetch" href="/Myblog/assets/js/172.61646960.js"><link rel="prefetch" href="/Myblog/assets/js/173.4f8817e5.js"><link rel="prefetch" href="/Myblog/assets/js/174.45399c6d.js"><link rel="prefetch" href="/Myblog/assets/js/175.bf19e98e.js"><link rel="prefetch" href="/Myblog/assets/js/176.d1de604d.js"><link rel="prefetch" href="/Myblog/assets/js/177.8fa80241.js"><link rel="prefetch" href="/Myblog/assets/js/178.a901444d.js"><link rel="prefetch" href="/Myblog/assets/js/179.82dad6b2.js"><link rel="prefetch" href="/Myblog/assets/js/18.eeed6a55.js"><link rel="prefetch" href="/Myblog/assets/js/180.6043cb38.js"><link rel="prefetch" href="/Myblog/assets/js/181.49e5a7d0.js"><link rel="prefetch" href="/Myblog/assets/js/182.be16577b.js"><link rel="prefetch" href="/Myblog/assets/js/183.10a624ec.js"><link rel="prefetch" href="/Myblog/assets/js/184.37c6dc66.js"><link rel="prefetch" href="/Myblog/assets/js/185.bc03774d.js"><link rel="prefetch" href="/Myblog/assets/js/186.e46e3175.js"><link rel="prefetch" href="/Myblog/assets/js/187.000a9e48.js"><link rel="prefetch" href="/Myblog/assets/js/188.40787456.js"><link rel="prefetch" href="/Myblog/assets/js/189.30ccc009.js"><link rel="prefetch" href="/Myblog/assets/js/19.a9866931.js"><link rel="prefetch" href="/Myblog/assets/js/190.b04b0009.js"><link rel="prefetch" href="/Myblog/assets/js/191.fd9d05f6.js"><link rel="prefetch" href="/Myblog/assets/js/192.4932379a.js"><link rel="prefetch" href="/Myblog/assets/js/193.5836129f.js"><link rel="prefetch" href="/Myblog/assets/js/194.1391c767.js"><link rel="prefetch" href="/Myblog/assets/js/195.452c37e6.js"><link rel="prefetch" href="/Myblog/assets/js/196.d1b57a33.js"><link rel="prefetch" href="/Myblog/assets/js/197.3c083e09.js"><link rel="prefetch" href="/Myblog/assets/js/198.637d6995.js"><link rel="prefetch" href="/Myblog/assets/js/199.8711b018.js"><link rel="prefetch" href="/Myblog/assets/js/20.06ebbc26.js"><link rel="prefetch" href="/Myblog/assets/js/200.bf70f7da.js"><link rel="prefetch" href="/Myblog/assets/js/201.08c96189.js"><link rel="prefetch" href="/Myblog/assets/js/202.44408039.js"><link rel="prefetch" href="/Myblog/assets/js/203.63a6140c.js"><link rel="prefetch" href="/Myblog/assets/js/204.7c359610.js"><link rel="prefetch" href="/Myblog/assets/js/205.0a3db645.js"><link rel="prefetch" href="/Myblog/assets/js/206.87d59c29.js"><link rel="prefetch" href="/Myblog/assets/js/207.dfdb8feb.js"><link rel="prefetch" href="/Myblog/assets/js/208.ce7df643.js"><link rel="prefetch" href="/Myblog/assets/js/209.bbb541e8.js"><link rel="prefetch" href="/Myblog/assets/js/21.857e8ea5.js"><link rel="prefetch" href="/Myblog/assets/js/210.833dec48.js"><link rel="prefetch" href="/Myblog/assets/js/211.9e0ef08c.js"><link rel="prefetch" href="/Myblog/assets/js/212.93d9a102.js"><link rel="prefetch" href="/Myblog/assets/js/213.fd1bc177.js"><link rel="prefetch" href="/Myblog/assets/js/214.683d1a48.js"><link rel="prefetch" href="/Myblog/assets/js/215.3d3c2dec.js"><link rel="prefetch" href="/Myblog/assets/js/216.8016d255.js"><link rel="prefetch" href="/Myblog/assets/js/217.d8d5bef1.js"><link rel="prefetch" href="/Myblog/assets/js/218.d478b86e.js"><link rel="prefetch" href="/Myblog/assets/js/219.c3277f1c.js"><link rel="prefetch" href="/Myblog/assets/js/22.f0532ef6.js"><link rel="prefetch" href="/Myblog/assets/js/220.3d5e111c.js"><link rel="prefetch" href="/Myblog/assets/js/221.bcfba24f.js"><link rel="prefetch" href="/Myblog/assets/js/222.63c5bc0b.js"><link rel="prefetch" href="/Myblog/assets/js/223.cc26f4bb.js"><link rel="prefetch" href="/Myblog/assets/js/224.c53e1df0.js"><link rel="prefetch" href="/Myblog/assets/js/225.fffc7ece.js"><link rel="prefetch" href="/Myblog/assets/js/226.cf7e0c77.js"><link rel="prefetch" href="/Myblog/assets/js/227.ae7b4782.js"><link rel="prefetch" href="/Myblog/assets/js/228.09087fbc.js"><link rel="prefetch" href="/Myblog/assets/js/229.2fbd4929.js"><link rel="prefetch" href="/Myblog/assets/js/23.56220af3.js"><link rel="prefetch" href="/Myblog/assets/js/230.4a60b0ac.js"><link rel="prefetch" href="/Myblog/assets/js/231.bb1de3a0.js"><link rel="prefetch" href="/Myblog/assets/js/232.952f64bc.js"><link rel="prefetch" href="/Myblog/assets/js/233.b236f3c9.js"><link rel="prefetch" href="/Myblog/assets/js/234.1a299ad3.js"><link rel="prefetch" href="/Myblog/assets/js/235.6e03747e.js"><link rel="prefetch" href="/Myblog/assets/js/236.9827c4e0.js"><link rel="prefetch" href="/Myblog/assets/js/237.276f000c.js"><link rel="prefetch" href="/Myblog/assets/js/238.ed9a3301.js"><link rel="prefetch" href="/Myblog/assets/js/239.3be1a5f1.js"><link rel="prefetch" href="/Myblog/assets/js/24.6648b08b.js"><link rel="prefetch" href="/Myblog/assets/js/240.8cdfc867.js"><link rel="prefetch" href="/Myblog/assets/js/241.a516f167.js"><link rel="prefetch" href="/Myblog/assets/js/242.52fc29ed.js"><link rel="prefetch" href="/Myblog/assets/js/243.25a1fb4d.js"><link rel="prefetch" href="/Myblog/assets/js/244.6f8b360f.js"><link rel="prefetch" href="/Myblog/assets/js/245.dc41955f.js"><link rel="prefetch" href="/Myblog/assets/js/246.8f099e16.js"><link rel="prefetch" href="/Myblog/assets/js/247.b76bf620.js"><link rel="prefetch" href="/Myblog/assets/js/248.304e1400.js"><link rel="prefetch" href="/Myblog/assets/js/249.7c78be53.js"><link rel="prefetch" href="/Myblog/assets/js/25.c6564192.js"><link rel="prefetch" href="/Myblog/assets/js/250.0a7b1da6.js"><link rel="prefetch" href="/Myblog/assets/js/251.8acb8b8e.js"><link rel="prefetch" href="/Myblog/assets/js/252.c93f5640.js"><link rel="prefetch" href="/Myblog/assets/js/253.675fc9bb.js"><link rel="prefetch" href="/Myblog/assets/js/254.ddfa20d1.js"><link rel="prefetch" href="/Myblog/assets/js/255.11d782a4.js"><link rel="prefetch" href="/Myblog/assets/js/256.46109169.js"><link rel="prefetch" href="/Myblog/assets/js/257.10e907ae.js"><link rel="prefetch" href="/Myblog/assets/js/258.0f2eec8e.js"><link rel="prefetch" href="/Myblog/assets/js/259.bd8d30b4.js"><link rel="prefetch" href="/Myblog/assets/js/26.3b0d7058.js"><link rel="prefetch" href="/Myblog/assets/js/260.acea492d.js"><link rel="prefetch" href="/Myblog/assets/js/261.b8647953.js"><link rel="prefetch" href="/Myblog/assets/js/262.3e18d01b.js"><link rel="prefetch" href="/Myblog/assets/js/263.1aa5679a.js"><link rel="prefetch" href="/Myblog/assets/js/264.65457a8a.js"><link rel="prefetch" href="/Myblog/assets/js/265.f4d3ec8e.js"><link rel="prefetch" href="/Myblog/assets/js/266.d6ef641e.js"><link rel="prefetch" href="/Myblog/assets/js/267.3ee2bbc8.js"><link rel="prefetch" href="/Myblog/assets/js/268.4fc8b105.js"><link rel="prefetch" href="/Myblog/assets/js/269.fe635c3d.js"><link rel="prefetch" href="/Myblog/assets/js/27.fc920553.js"><link rel="prefetch" href="/Myblog/assets/js/271.1f744cad.js"><link rel="prefetch" href="/Myblog/assets/js/272.66325bc0.js"><link rel="prefetch" href="/Myblog/assets/js/273.247f1031.js"><link rel="prefetch" href="/Myblog/assets/js/274.16d1be13.js"><link rel="prefetch" href="/Myblog/assets/js/275.ceafdef8.js"><link rel="prefetch" href="/Myblog/assets/js/276.b3296f00.js"><link rel="prefetch" href="/Myblog/assets/js/277.73198272.js"><link rel="prefetch" href="/Myblog/assets/js/278.c147e0ff.js"><link rel="prefetch" href="/Myblog/assets/js/279.2118482d.js"><link rel="prefetch" href="/Myblog/assets/js/28.40ddbbc2.js"><link rel="prefetch" href="/Myblog/assets/js/280.4044b73a.js"><link rel="prefetch" href="/Myblog/assets/js/281.464c9eb8.js"><link rel="prefetch" href="/Myblog/assets/js/282.72a63984.js"><link rel="prefetch" href="/Myblog/assets/js/29.fc9cfeaa.js"><link rel="prefetch" href="/Myblog/assets/js/3.9b4e0e3a.js"><link rel="prefetch" href="/Myblog/assets/js/30.9b3ccfd8.js"><link rel="prefetch" href="/Myblog/assets/js/31.07d8ecac.js"><link rel="prefetch" href="/Myblog/assets/js/32.7748bdd2.js"><link rel="prefetch" href="/Myblog/assets/js/33.868935cb.js"><link rel="prefetch" href="/Myblog/assets/js/34.15d9c253.js"><link rel="prefetch" href="/Myblog/assets/js/35.7343ce1f.js"><link rel="prefetch" href="/Myblog/assets/js/36.ed5ea85c.js"><link rel="prefetch" href="/Myblog/assets/js/37.4a516cdb.js"><link rel="prefetch" href="/Myblog/assets/js/38.94e758f4.js"><link rel="prefetch" href="/Myblog/assets/js/39.61f1bbca.js"><link rel="prefetch" href="/Myblog/assets/js/4.c9cb6417.js"><link rel="prefetch" href="/Myblog/assets/js/40.f0fcab61.js"><link rel="prefetch" href="/Myblog/assets/js/41.22d6b622.js"><link rel="prefetch" href="/Myblog/assets/js/42.fc3d74b0.js"><link rel="prefetch" href="/Myblog/assets/js/43.ea18e421.js"><link rel="prefetch" href="/Myblog/assets/js/44.5dea0a79.js"><link rel="prefetch" href="/Myblog/assets/js/45.0cbcc6f4.js"><link rel="prefetch" href="/Myblog/assets/js/46.11afb8d7.js"><link rel="prefetch" href="/Myblog/assets/js/47.49f4f0ef.js"><link rel="prefetch" href="/Myblog/assets/js/48.5ad83483.js"><link rel="prefetch" href="/Myblog/assets/js/49.6d096ea9.js"><link rel="prefetch" href="/Myblog/assets/js/5.58ab608d.js"><link rel="prefetch" href="/Myblog/assets/js/50.f02b8c15.js"><link rel="prefetch" href="/Myblog/assets/js/51.b47aa811.js"><link rel="prefetch" href="/Myblog/assets/js/52.277dbf6e.js"><link rel="prefetch" href="/Myblog/assets/js/53.330d2b30.js"><link rel="prefetch" href="/Myblog/assets/js/54.7e5c7b70.js"><link rel="prefetch" href="/Myblog/assets/js/55.1c90ce78.js"><link rel="prefetch" href="/Myblog/assets/js/56.5cd4e40f.js"><link rel="prefetch" href="/Myblog/assets/js/57.daa36ee7.js"><link rel="prefetch" href="/Myblog/assets/js/58.44b903fc.js"><link rel="prefetch" href="/Myblog/assets/js/59.5bb12dae.js"><link rel="prefetch" href="/Myblog/assets/js/6.ddc6e44e.js"><link rel="prefetch" href="/Myblog/assets/js/60.00d28adb.js"><link rel="prefetch" href="/Myblog/assets/js/61.f7b153e1.js"><link rel="prefetch" href="/Myblog/assets/js/62.bfc0bf9b.js"><link rel="prefetch" href="/Myblog/assets/js/63.a1ecb450.js"><link rel="prefetch" href="/Myblog/assets/js/64.3c0ae03d.js"><link rel="prefetch" href="/Myblog/assets/js/65.4567a0f6.js"><link rel="prefetch" href="/Myblog/assets/js/66.f9c91d35.js"><link rel="prefetch" href="/Myblog/assets/js/67.9be20316.js"><link rel="prefetch" href="/Myblog/assets/js/68.6a9300b0.js"><link rel="prefetch" href="/Myblog/assets/js/69.88714437.js"><link rel="prefetch" href="/Myblog/assets/js/7.908f2bf5.js"><link rel="prefetch" href="/Myblog/assets/js/70.bc34b84d.js"><link rel="prefetch" href="/Myblog/assets/js/71.94ad23b9.js"><link rel="prefetch" href="/Myblog/assets/js/72.c12e15c5.js"><link rel="prefetch" href="/Myblog/assets/js/73.e2d3209a.js"><link rel="prefetch" href="/Myblog/assets/js/74.1bed58a7.js"><link rel="prefetch" href="/Myblog/assets/js/75.99d4f6b5.js"><link rel="prefetch" href="/Myblog/assets/js/76.90c0727b.js"><link rel="prefetch" href="/Myblog/assets/js/77.0f0146fe.js"><link rel="prefetch" href="/Myblog/assets/js/78.e2b8bf42.js"><link rel="prefetch" href="/Myblog/assets/js/79.be1b2402.js"><link rel="prefetch" href="/Myblog/assets/js/8.81fe48d1.js"><link rel="prefetch" href="/Myblog/assets/js/80.d228f593.js"><link rel="prefetch" href="/Myblog/assets/js/81.99c32ba6.js"><link rel="prefetch" href="/Myblog/assets/js/82.6494cf61.js"><link rel="prefetch" href="/Myblog/assets/js/83.c610c94e.js"><link rel="prefetch" href="/Myblog/assets/js/84.0c0f1c95.js"><link rel="prefetch" href="/Myblog/assets/js/85.3f7ebaae.js"><link rel="prefetch" href="/Myblog/assets/js/86.16ea8b16.js"><link rel="prefetch" href="/Myblog/assets/js/87.01a2a880.js"><link rel="prefetch" href="/Myblog/assets/js/88.ffbf05ff.js"><link rel="prefetch" href="/Myblog/assets/js/89.d5ccfe6d.js"><link rel="prefetch" href="/Myblog/assets/js/9.2fc2560a.js"><link rel="prefetch" href="/Myblog/assets/js/90.6e235aab.js"><link rel="prefetch" href="/Myblog/assets/js/91.c873c679.js"><link rel="prefetch" href="/Myblog/assets/js/92.3bb485be.js"><link rel="prefetch" href="/Myblog/assets/js/93.9b02343a.js"><link rel="prefetch" href="/Myblog/assets/js/94.a5c2221c.js"><link rel="prefetch" href="/Myblog/assets/js/95.47dc70d8.js"><link rel="prefetch" href="/Myblog/assets/js/96.f54604b0.js"><link rel="prefetch" href="/Myblog/assets/js/97.37425289.js"><link rel="prefetch" href="/Myblog/assets/js/98.08f6f792.js"><link rel="prefetch" href="/Myblog/assets/js/99.ba7cf38a.js">
+    <link rel="stylesheet" href="/Myblog/assets/css/0.styles.baca3271.css">
+  </head>
+  <body class="theme-mode-light">
+    <div id="app" data-server-rendered="true"><div class="theme-container sidebar-open"><header class="navbar blur"><div title="目录" class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/Myblog/" class="home-link router-link-active"><!----> <span class="site-name">麦仁博客</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/Myblog/" class="nav-link">首页</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端" class="dropdown-title"><a href="/Myblog/web/" class="link-title">前端</a> <span class="title" style="display:none;">前端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>javaScript笔记精选</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/Myblog/pages/03dd97/" class="nav-link">JS常用案例</a></li></ul></li><li class="dropdown-item"><h4>vue学习精选</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/Myblog/pages/0082e9/" class="nav-link">《vue基本知识点》</a></li><li class="dropdown-subitem"><a href="/Myblog/pages/24e9bb/" class="nav-link">《vue3的使用》</a></li></ul></li></ul></div></div><div class="nav-item"><a href="/Myblog/backEnd/" class="nav-link">后端</a></div><div class="nav-item"><a href="/Myblog/englishLife/" class="nav-link">英语</a></div><div class="nav-item"><a href="/Myblog/bookLife/" class="nav-link">读书</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="页面" class="dropdown-title"><a href="/Myblog/ui/" class="link-title">页面</a> <span class="title" style="display:none;">页面</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Myblog/pages/8309a5b876fc95e3/" class="nav-link">HTML</a></li><li class="dropdown-item"><!----> <a href="/Myblog/pages/0a83b083bdf257cb/" class="nav-link">CSS</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="技术" class="dropdown-title"><a href="/Myblog/technology/" class="link-title">技术</a> <span class="title" style="display:none;">技术</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Myblog/pages/9a7ee40fc232253e/" class="nav-link">技术文档</a></li><li class="dropdown-item"><!----> <a href="/Myblog/pages/4c778760be26d8b3/" class="nav-link">GitHub技巧</a></li><li class="dropdown-item"><!----> <a href="/Myblog/pages/117708e0af7f0bd9/" class="nav-link">Nodejs</a></li><li class="dropdown-item"><!----> <a href="/Myblog/pages/41f87d890d0a02af/" class="nav-link">博客搭建</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="更多" class="dropdown-title"><a href="/Myblog/more/" class="link-title">更多</a> <span class="title" style="display:none;">更多</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Myblog/pages/f2a556/" class="nav-link">学习</a></li><li class="dropdown-item"><!----> <a href="/Myblog/pages/aea6571b7a8bae86/" class="nav-link">面试</a></li><li class="dropdown-item"><!----> <a href="/Myblog/pages/2d615df9a36a98ed/" class="nav-link">心情杂货</a></li><li class="dropdown-item"><!----> <a href="/Myblog/pages/baaa02/" class="nav-link">实用技巧</a></li><li class="dropdown-item"><!----> <a href="/Myblog/friends/" class="nav-link">友情链接</a></li></ul></div></div><div class="nav-item"><a href="/Myblog/about/" class="nav-link">关于</a></div><div class="nav-item"><a href="/Myblog/pages/beb6c0bd8a66cea6/" class="nav-link">收藏</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="索引" class="dropdown-title"><a href="/Myblog/archives/" class="link-title">索引</a> <span class="title" style="display:none;">索引</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Myblog/categories/" class="nav-link">分类</a></li><li class="dropdown-item"><!----> <a href="/Myblog/tags/" class="nav-link">标签</a></li><li class="dropdown-item"><!----> <a href="/Myblog/archives/" class="nav-link">归档</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar-hover-trigger"></div> <aside class="sidebar" style="display:none;"><!----> <nav class="nav-links"><div class="nav-item"><a href="/Myblog/" class="nav-link">首页</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端" class="dropdown-title"><a href="/Myblog/web/" class="link-title">前端</a> <span class="title" style="display:none;">前端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>javaScript笔记精选</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/Myblog/pages/03dd97/" class="nav-link">JS常用案例</a></li></ul></li><li class="dropdown-item"><h4>vue学习精选</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/Myblog/pages/0082e9/" class="nav-link">《vue基本知识点》</a></li><li class="dropdown-subitem"><a href="/Myblog/pages/24e9bb/" class="nav-link">《vue3的使用》</a></li></ul></li></ul></div></div><div class="nav-item"><a href="/Myblog/backEnd/" class="nav-link">后端</a></div><div class="nav-item"><a href="/Myblog/englishLife/" class="nav-link">英语</a></div><div class="nav-item"><a href="/Myblog/bookLife/" class="nav-link">读书</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="页面" class="dropdown-title"><a href="/Myblog/ui/" class="link-title">页面</a> <span class="title" style="display:none;">页面</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Myblog/pages/8309a5b876fc95e3/" class="nav-link">HTML</a></li><li class="dropdown-item"><!----> <a href="/Myblog/pages/0a83b083bdf257cb/" class="nav-link">CSS</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="技术" class="dropdown-title"><a href="/Myblog/technology/" class="link-title">技术</a> <span class="title" style="display:none;">技术</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Myblog/pages/9a7ee40fc232253e/" class="nav-link">技术文档</a></li><li class="dropdown-item"><!----> <a href="/Myblog/pages/4c778760be26d8b3/" class="nav-link">GitHub技巧</a></li><li class="dropdown-item"><!----> <a href="/Myblog/pages/117708e0af7f0bd9/" class="nav-link">Nodejs</a></li><li class="dropdown-item"><!----> <a href="/Myblog/pages/41f87d890d0a02af/" class="nav-link">博客搭建</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="更多" class="dropdown-title"><a href="/Myblog/more/" class="link-title">更多</a> <span class="title" style="display:none;">更多</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Myblog/pages/f2a556/" class="nav-link">学习</a></li><li class="dropdown-item"><!----> <a href="/Myblog/pages/aea6571b7a8bae86/" class="nav-link">面试</a></li><li class="dropdown-item"><!----> <a href="/Myblog/pages/2d615df9a36a98ed/" class="nav-link">心情杂货</a></li><li class="dropdown-item"><!----> <a href="/Myblog/pages/baaa02/" class="nav-link">实用技巧</a></li><li class="dropdown-item"><!----> <a href="/Myblog/friends/" class="nav-link">友情链接</a></li></ul></div></div><div class="nav-item"><a href="/Myblog/about/" class="nav-link">关于</a></div><div class="nav-item"><a href="/Myblog/pages/beb6c0bd8a66cea6/" class="nav-link">收藏</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="索引" class="dropdown-title"><a href="/Myblog/archives/" class="link-title">索引</a> <span class="title" style="display:none;">索引</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Myblog/categories/" class="nav-link">分类</a></li><li class="dropdown-item"><!----> <a href="/Myblog/tags/" class="nav-link">标签</a></li><li class="dropdown-item"><!----> <a href="/Myblog/archives/" class="nav-link">归档</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/Myblog/pages/2d20ef/" class="sidebar-link">基本语法</a></li><li><a href="/Myblog/pages/f2c713/" class="sidebar-link">语句摘抄</a></li><li><a href="/Myblog/pages/092cac/" class="sidebar-link">月份&amp;周</a></li><li><a href="/Myblog/pages/b0633e/" class="sidebar-link">过去式and过去分词</a></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>可可晨读</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>每日语句摘抄</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>雅思chatGpt</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>TED</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading open"><span>2024年部分</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/Myblog/pages/91b104/" class="sidebar-link">20240604</a></li><li><a href="/Myblog/pages/b78e98/" class="sidebar-link">20240605</a></li><li><a href="/Myblog/pages/e13efb/" class="sidebar-link">20240606</a></li><li><a href="/Myblog/pages/1e6642/" class="sidebar-link">20240607</a></li><li><a href="/Myblog/pages/401708/" class="sidebar-link">20240608</a></li><li><a href="/Myblog/pages/1055ae/" class="sidebar-link">20240610</a></li><li><a href="/Myblog/pages/c27d85/" class="sidebar-link">20240611</a></li><li><a href="/Myblog/pages/0a442d/" class="sidebar-link">20240612</a></li><li><a href="/Myblog/pages/239263/" aria-current="page" class="active sidebar-link">20240613</a></li><li><a href="/Myblog/pages/5ca761/" class="sidebar-link">20240614</a></li><li><a href="/Myblog/pages/968b4f/" class="sidebar-link">20240615</a></li><li><a href="/Myblog/pages/a5d55c/" class="sidebar-link">20240617</a></li><li><a href="/Myblog/pages/3b1e79/" class="sidebar-link">20240621</a></li></ul></section></li></ul></section></li></ul> </aside> <div><main class="page"><div class="theme-vdoing-wrapper "><div class="articleInfo-wrap" data-v-06225672><div class="articleInfo" data-v-06225672><ul class="breadcrumbs" data-v-06225672><li data-v-06225672><a href="/Myblog/" title="首页" class="iconfont icon-home router-link-active" data-v-06225672></a></li> <li data-v-06225672><a href="/Myblog/categories/?category=%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0" title="分类" data-v-06225672>英语学习</a></li><li data-v-06225672><a href="/Myblog/categories/?category=TED" title="分类" data-v-06225672>TED</a></li><li data-v-06225672><a href="/Myblog/categories/?category=2024%E5%B9%B4%E9%83%A8%E5%88%86" title="分类" data-v-06225672>2024年部分</a></li></ul> <div class="info" data-v-06225672><!----> <div title="创建时间" class="date iconfont icon-riqi" data-v-06225672><a href="javascript:;" data-v-06225672>2024-06-28</a></div> <!----></div></div></div> <!----> <div class="content-wrapper"><!----> <h1><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAABH1JREFUSA3tVl1oHFUUPmdmd2ltklqbpJDiNnXFmgbFktho7YMPNiJSSZM0+CAYSkUELVhM6YuwIPpgoOKDqOBDC0XE2CQoNtQXBUFTTcCi+Wlh1V2TQExsUzcltd3M9Tt3ZjZzZ2fT+OJTL8yeM+eee757fmeJbq//KQL8X3DUSFOcfr7cRsRtxNQMWueeVzOkaITIGqQHNg5y8+jNW9ldM7A6nTpAjuolUikAwq7CE3WcM2RRDz+XGVgN3FptU/aUSlvq9Pa3iZ1+sgAqJyyAFqkipd9dqiwHF3P65YycLWc/6sqGrvoEoIp6DOFaX5h6+dnfjkWprwqsPk0dUGq5vySwDImC10KxFHgGL1SWoc92O3eVht09qdXNH11I2SsTsJYqMWzihqGMi+A+Garf3BAuuLI5oGlULyNfyB/HYNujwktOfRrMr5t77NmevqaUopx0grnKAyvVpmwUDB4x6FPXuGvYLTDwWsejwgtgkYKPqRJg8SV6xaiZ3ZTppGneS4yfH5/66fZSDHv+QZci/+h5c5UHtpy67JUqGppM0sh0Nc1dW6/N1W5Yoqat8/TU/VnadmdeW2PLLSyh0cvxBs3KbqTmwYPpxN4do/mzE8nEpvX/UMu2Wbp74zUAK5q6WkHns7V0eWkdPbPzd3rxkTGybadYySumVzhcaJFbs5UrEkQ/+CK8gF5dnh/6ciIZ73gwQ927L1IitoxKLXYP3SjYdOrHHfTZhRRlFyrorafPk20B3HPD1y2G3qKZME5Jcf3t/HUC13/8tSd++vqFveMUTwAUxSUFI1QekR1+bIze3D9MF2aq6cPvG72CgnldWCFqyRw3lwH8ZMerjTD9ElRO7Gv44wNpC90aASqGfVlz/Rx17srQ57/UU26hkhQqUB7dBR71WmzQhHUnblGmVOEw0jhbV1n9OlXUDCIRGaNV5Jp43N516fN7JmnTHdfp7Hgy0luO4aMhtkLL8Bi3bUWYvzh5Mn1dTxrL6QmGuRhGL/TiTTxRoEdTszSaq9GR0NGA3KdkOz3hqSV3MIDhQ5IVX/Ivx3umBti2es2h4eZby7x8br1rkf7Mo90AqC8aQ3sJeNzqFRu+vSANAQe3PL7l0HGOAdwDCeZYvNKeoZp1Qfs6Aipndh86HmFRi0LAnEO47wsqM6cdfjh3jBPUzhZy7nvlUfFsamED1VQt6aISHVymXZ/B2aCtIG8AI8xfobj2d3en1wWVhOeHELKmLQ1s211s88comkv4UCwWyF787mJdYXtNfhKAXVqnKTq8QZvGAGGOfaTo5pGZ/PwbUCr5+DPr/1J92JNHr9aOl/F3iI5+O1nfybsGxoimvZ3ViWSluDITw3P37mypheDIPY0tw7+O/5ApbkYw+zpfaUVu32Pi98+defdUhEpZkRFq0aqyNh9FuL9hpYbEm6iwi0z2REd09ZmyENEbuhjDWzKvZXTqKYaBIr3tt5kuPtQBZFvEUwHt60vfCNu41XsksH9Ij1BMMz1Y0OOunHNShFIP5868g5zeXmuLwL9T4b6Q2+KejgAAAABJRU5ErkJggg==">20240613<!----></h1> <!----> <div class="theme-vdoing-content content__default"><p>When I was ten,
+I spent a lot of time playing with my Spider-Man action figures.</p> <p>I would have done anything for them to come to life.</p> <p>I honestly would take Gandalf over any therapist,
+but it's been pretty hard to connect with the guy
+since I long ago finished all of Tolkien's works and movies.</p> <p>Why is it that we have to say goodbye on the final page?
+We may not need to.</p> <p>Stories are changing,
+moving from static sketches and scripted narratives
+to living worlds and characters.</p> <p>AI agents are changing the way we can tell stories.</p> <p>These agents aren't just chat bots,
+they're any autonomous system that can take a directive or task
+and accomplish it without human intervention.</p> <p>Virtual assistants like a ChatGPT,
+autonomous vehicles like a Waymo or Tesla,
+robots moving boxes in an Amazon warehouse.</p> <p>These are all agents,
+but now they're changing storytelling too.</p> <p>We can bring together the active participation of video games
+with a much more natural social form of interaction,
+enabled by AI agents.</p> <p>I want to show you a hint of what I mean.</p> <p>Characters that come to life with their own personality,
+styles, voices and expression,
+while still being able to interact with one another,
+the audience and the environment.</p> <p>These interactions that you're going to see are not scripted,
+many of them filmed over the last few days
+here at TED and in Vancouver.</p> <p>Anyways, meet Caleb.</p> <p>(Video) Caleb: Oh, hey, Grandma.</p> <p>Welcome to my secret attic hideout.</p> <p>Grandma: What's Mr. Moose doing there?</p> <p>Caleb: That's actually Brother Moose, not Mr. Moose.</p> <p>He's like, the wise old moose who gives me advice and stuff.</p> <p>Oh, by the way, thanks for showing me your old superhero action figure, Grandma.</p> <p>It's, like, totally awesome.</p> <p>What's its name?</p> <p>Grandma: Mighty Squirrel.</p> <p>Caleb: Really?</p> <p>Grandma: Yes.</p> <p>Caleb: Wow, that's so awesome.</p> <p>A squirrel with super powers.</p> <p>That's nuts.</p> <p>Get it?</p> <p>Nuts?</p> <p>Like what squirrels eat.</p> <p>I bet Mighty Squirrel had some epic battles with evil acorns.</p> <p>Kylan Gibbs: By having that real-time responsiveness,
+Caleb makes the audience feel seen and heard,
+as if they're all inhabiting the shared space.</p> <p>And it isn't just any audience, that's actually my amazing grandma.</p> <p>The characters can also come together with one another
+and take ideas from the audience and improvise new content on the fly.</p> <p>(Toy robot beeping)</p> <p>(Video) Robot: Ready for action!</p> <p>Caleb: Whoa!</p> <p>Robot: Oof! That didn't go well.</p> <p>My arm is acting up.</p> <p>Villains, beware!</p> <p>Oops.</p> <p>Caleb: Grandma, can we fix the Mighty Squirrel's arm?</p> <p>Grandma: Sure.</p> <p>Pick it up and put it back on his arm.</p> <p>Caleb: Yeah.</p> <p>I'll fix you up, Mighty Squirrel.</p> <p>Your arm is broken.</p> <p>Grandma: He got it caught in a washing machine.</p> <p>Caleb: Ha, ha! You fought against the evil washing machine,
+Magic flower.</p> <p>How did the action figure break its arm?</p> <p>Grandma: He fell in some water full of alligators.</p> <p>Robot: Oh, you know, just your average superhero stuff.</p> <p>I was on a mission to save a city from a giant alligator,
+and I fell into the water.</p> <p>But don't worry, I still saved the day.</p> <p>KG: Each of these characters has their own internal reasoning and motivations,
+but they actually take those ideas from my grandma
+and then create new content in real time.</p> <p>They can even allow the audience to shape the overall story arc
+and conclusion of the experience.</p> <p>(Video) Robot: Prepare yourselves
+for the Mighty Squirrel is about to take flight.</p> <p>Caleb: Haha.</p> <p>Robot: Grandma, do you have anything to help me take flight again?</p> <p>Grandma: There is an eagle outside on a tree.</p> <p>Robot: An eagle, you say?</p> <p>Perfect.</p> <p>Time to spread my wings and soar through the skies.</p> <p>Caleb: Whoa, Mighty Squirrel,
+you're going to be the coolest flying superhero ever.</p> <p>And we'll have epic battles with the evil villains.</p> <p>KG: OK, so I’m mainly just jealous
+that Caleb is getting to have the experience
+I always wanted as a child.</p> <p>But I also love seeing how he takes the story,
+puts it in the audience’s hands
+and turns it into a canvas for their imagination.</p> <p>This is, of course, a tiny slice of what's possible,
+with there already being other AI-enabled games and experiences that exist today.</p> <p>Most exciting for me is a brand new genre we're seeing emerge
+that takes social interaction and conversation
+and puts it as the core mechanic of the experience.</p> <p>So let's say instead of jump and shoot,
+you actually have to use your social skills
+to navigate complex social scenarios
+and mediate conflicts.</p> <p>That's how you win the game.</p> <p>I would definitely have benefited more from that type of game
+than the ones I was playing when I was a teenager.</p> <p>And it's not just pure games per se.</p> <p>Imagine I had an AI tutor who texted me to remind me of a session
+and then jumped with me into a virtual world,
+walking through the emperor’s chambers in ancient China,
+casually switching between English and Chinese
+as we reviewed last week's history lesson.</p> <p>Or, as my family and I sat down to watch our favorite reality TV show
+or sports game,
+the agent could actually see
+the ongoing performance in real-time using vision
+and add hilarious commentary in the background.</p> <p>Games, though, are unique because they already take us from passive observer
+and turn us into an active participant.</p> <p>When I get really deep into a game,
+especially an immersive role-playing games like a Final Fantasy VII,
+Baldur's Gate 3 or Elden Ring --
+yes, I'm a massive role-playing game geek --
+At some point it feels like I'm in the story,
+but there's still something missing.</p> <p>The core mechanics of these experiences --
+jump and shoot, hack and slash, point and click,
+feel so distant from the natural ways
+that I interact with people and things in my own life.</p> <p>And so as immersed as I get in these experiences,
+it kind of feels like I'm stuck on these rails set up by the developer
+and nudged along from scripted point to scripted point
+based on the buttons that I press.</p> <p>And immersion requires a sense of real-time responsiveness,
+a sense that there's a consequence that is immediate and lasting
+and unique to the choices and actions that I take.</p> <p>However, until now, it's been extremely difficult to pre-script
+every combination of consequences
+to every permutation of player behaviors.</p> <p>Agents overcome this though.</p> <p>Just check out how Caleb handles some unexpected scenarios here at TED.
+(Video) Robot: Villains, beware!</p> <p>Caleb: Grandma, do you remember how his arm got broken?
+Person 1: He got in a fight with a gerbil.</p> <p>Caleb: That's like, the tiniest animal ever.</p> <p>Person 1: Let's just say the gerbil won the fight.</p> <p>Caleb: I bet the gerbil had some secret karate moves or something.</p> <p>Do you remember how his arm got broken?</p> <p>Person 2: I do, he was at this conference one day,
+and he did the ocean plunge and a shark came and ate it.</p> <p>Robot: Superheroes are always attracting the attention of sharks.</p> <p>But don't worry, I gave that shark a run for its money.</p> <p>Caleb: Uncle, do you remember how his arm got broken?</p> <p>Person 3: He was doing gardening.</p> <p>Robot: Defending gardens from evil produce is my specialty.</p> <p>Person 3: That's cool.</p> <p>Caleb: That's not as cool as battling mechanical minions.</p> <p>Person 3: True.</p> <p>(Laughter)</p> <p>KG: So it’s not just these stand-alone characters we want to bring to life,
+but fully agentic, interconnected worlds
+where a choice at one point
+might have dramatic consequences somewhere down the line,
+and the unique content produced for each user
+is still grounded in a shared lore and experience
+so that we have that shared social context
+that we all need from media.</p> <p>My company Inworld helps entertainment houses and game studios
+to build these agents for the next generation of media.</p> <p>And when we begin to build a character like Caleb, we start with the brain,
+which is crafted in a similar way
+to instructing an extremely capable improv actor.</p> <p>We start by training custom machine-learning models
+that give him a lay of the land, understanding the lore, vocabulary
+and grammar appropriate for the experience.</p> <p>And then we actually go in and we tweak his persona,
+his unique personality, motivations, his flaws and biases.</p> <p>We actually craft his dialogue style and voice,
+the way he verbally expresses himself.</p> <p>We build a unique emotional profile,
+the way he feels, his social tendencies and relationship habits,
+and then we preload a bunch of knowledge and memories
+that give him that robust backstory.</p> <p>Then we actually craft his internal reasoning and mental state,
+kind of the conditions under which he feels certain things
+or takes certain behaviors.</p> <p>We then decide how he actually gestures and animates those behaviors,
+and then that completes the brain, which we actually take
+and we attach to an avatar within a virtual world or game engine,
+effectively bringing it to life.</p> <p>And then we're ready to play and we're playing the experience.
+There's kind of an overarching narrative agent
+that acts like an AI director,
+managing or even generating the storyline in real time
+and ensuring that all the characters and entities
+cohere to their proper places within the story and context.</p> <p>For specific character like Caleb,
+when he's interacting with the world and characters,
+he does so in a similar way to how we as humans do
+with perception, cognition and behavior.</p> <p>Perception is the multimodal sensory input flowing in,
+the understanding of the world and context and people and objects within it.
+And then with cognition, he processes that input,
+kind of like the internal processing of our minds.</p> <p>He filters out irrelevant information to make sure everything is safe
+and narrative aligned.</p> <p>He extracts out important signals like sentiment, intent, emotional cues.
+He retrieves relevant memories from his past
+and even generates new ones on the fly.</p> <p>Finally reasoning over what to do both verbally and non-verbally.</p> <p>And finally with behavior, he actually generates his responses.</p> <p>He decides what to say and how to say it,
+what facial and body gestures to use,
+what actions to take,
+and people and objects to interact with.</p> <p>And that's what brings the character to life.
+And so, as amazed as I am by all these task-focused applications of AI
+that are coming out,
+the more I work with studios and creatives,
+the more excited I am for the potential
+for these agents to extend human creative potential,
+and for them to allow audiences to step beyond the script.</p> <p>For them to give audiences agency
+and allow them to co-create experiences that stem from their own imagination.</p> <p>To finish it off, here's a few funny takes from here at TED,
+starting with Polly, whose son is actually named Caleb.</p> <p>(Video) Person 4: Are you ready to play [unclear] Caleb?</p> <p>Caleb: Absolutely, grandma.</p> <p>Let's dive into some epic superhero adventures together.</p> <p>Person 4: Let's do it.</p> <p>Person 5: Can you hear me?</p> <p>Caleb: Of course I can hear you, silly.</p> <p>I love playing basketball.</p> <p>Person 3: Oh, wow. And which is your favorite basketball player?</p> <p>Caleb: Definitely LeBron James.</p> <p>Person 3: Sure.</p> <p>Caleb: Thanks for showing me your old superhero action figure.</p> <p>Person 1: You mean the man in his underwear?</p> <p>Caleb: Haha, yeah.</p> <p>He's like a tough guy in his undies ready to save the world.</p> <p>What's its name?</p> <p>Person 6: Johnny May Rotten Bad.</p> <p>Caleb: Uncle, you're so silly.</p> <p>(Laughter)</p> <p>Does he have, like, a guitar for a weapon?</p> <p>Person 6: He sure does.</p> <p>Caleb: No way.</p> <p>Person 6: Way.</p> <p>Caleb: No way.</p> <p>Person 6: Way.</p> <p>Caleb: Does he zap bad guys with his electric powers?</p> <p>Person 7: No, no, no, no, no.</p> <p>He zaps people and gives them love.</p> <p>He’s a nice superhero.</p> <p>Caleb: Wow, that's different.</p> <p>He uses love to fight the bad guys.</p> <p>Person 7: Yeah, and guess what?</p> <p>Caleb: That's so cool.</p> <p>Person 7: He always wins.</p> <p>(Applause)</p> <p>KG: So it seems like there’s a pretty solid chance
+my Spider-Man action figures could come to life after all.</p> <p>Thank you.</p> <p>(Applause)</p> <p>当我十岁的时候，
+&quot;我花了很多时间玩
+我的蜘蛛侠动作玩偶。 为了让它们复活，&quot;
+&quot;我愿意做任何事
+。&quot;
+&quot;老实说，我会选择甘道夫而不是
+任何治疗师，&quot;
+&quot;但
+&quot;
+&quot;自从我很久以前完成了
+托尔金的所有作品和电影以来，很难与他建立联系。&quot;
+&quot;为什么我们要
+在最后一页说再见？&quot;
+我们可能不需要。
+故事正在发生变化，
+&quot;从静态的草图
+和脚本化的叙述转变&quot;
+为活生生的世界和人物。
+&quot;人工智能代理正在改变
+我们讲故事的方式。&quot;
+这些代理不仅仅是聊天机器人，
+&quot;它们是任何
+可以接受指令或任务&quot;
+&quot;并
+无需人工干预即可完成的自治系统。&quot;
+ChatGPT 等虚拟助手、
+Waymo 或 Tesla 等自动驾驶汽车、
+&quot;
+亚马逊仓库中搬运箱子的机器人。&quot;
+这些都是特工，
+但现在他们也在改变故事讲述方式。
+&quot;我们可以将
+视频游戏的积极参与&quot;
+&quot;与人工智能代理支持的更自然的
+社交互动形式结合起来&quot;
+。
+我想向你展示一下我的意思。
+&quot;角色
+以自己的个性、&quot;
+风格、声音和表情栩栩如生，
+&quot;同时仍然能够
+与彼此、&quot;
+观众和环境互动。
+&quot;你将看到的这些互动
+并不是有剧本的，&quot;
+其中许多是过去几天
+在 TED 和温哥华拍摄的。
+不管怎样，来认识一下迦勒吧。
+（视频）迦勒：哦，嘿，奶奶。
+欢迎来到我的秘密阁楼藏身处。
+奶奶：驼鹿先生在那儿做什么？
+&quot;迦勒：那实际上是
+驼鹿弟兄，而不是驼鹿先生。&quot;
+&quot;他就像一头聪明的老驼鹿，
+给我建议和东西。&quot;
+&quot;哦，顺便说一句，谢谢你向我展示
+你的老超级英雄动作玩偶，奶奶。&quot;
+这真是太棒了。
+它叫什么名字？
+奶奶：强大的松鼠。
+迦勒：真的吗？
+奶奶：是的。
+迦勒：哇，太棒了。
+一只拥有超能力的松鼠。
+那太疯狂了。
+得到它？
+坚果？
+就像松鼠吃的东西一样。
+&quot;我敢打赌，强大的松鼠与邪恶的橡子进行了一些史诗般的
+战斗。&quot;
+&quot;凯兰·吉布斯（Kylan Gibbs）：通过
+实时响应，&quot;
+&quot;Caleb 让观众
+感觉自己被看到和听到，&quot;
+&quot;就好像他们都居住在
+共享空间中一样。&quot;
+&quot;这不仅仅是任何观众，
+这实际上是我了不起的奶奶。&quot;
+&quot;角色还可以
+彼此聚集在一起，&quot;
+&quot;从观众那里汲取想法，
+并即兴创作新内容。&quot;
+（玩具机器人发出蜂鸣声）
+（视频）机器人：准备行动！
+迦勒：哇！
+机器人：噢！ 进展并不顺利。
+我的手臂开始活动了。
+恶人，小心！
+哎呀。
+&quot;迦勒：奶奶，我们能修好
+松鼠的手臂吗？&quot;
+奶奶：当然。
+把它捡起来，放回他的手臂上。
+迦勒：是的。
+我会收拾你的，强大的松鼠。
+你的手臂断了。
+&quot;奶奶：他把它卡
+在洗衣机里了。&quot;
+&quot;迦勒：哈，哈！ 你
+与邪恶的洗衣机战斗，&quot;
+魔幻花。
+人偶的手臂是如何折断的？
+&quot;奶奶：他掉进了
+满是鳄鱼的水里。&quot;
+&quot;机器人：哦，你知道，
+只是普通的超级英雄的东西。&quot;
+&quot;我正在执行一项任务，
+从巨型鳄鱼手中拯救一座城市，&quot;
+结果我掉进了水里。
+但别担心，我仍然挽救了这一天。
+&quot;KG：每个角色都有自己的
+内在推理和动机，&quot;
+&quot;但他们实际上是
+从我祖母那里获取这些想法，&quot;
+然后实时创建新内容。
+&quot;它们甚至可以让观众
+塑造整个故事情节&quot;
+和体验的结论。
+（视频）机器人：
+&quot;为
+即将起飞的松鼠做好准备。&quot;
+迦勒：哈哈。
+&quot;机器人：奶奶，你有什么办法可以
+帮助我再次飞翔吗？&quot;
+&quot;奶奶：
+外面的树上有一只鹰。&quot;
+机器人：你说一只鹰？
+完美的。 是
+&quot;时候展开翅膀，
+翱翔天空了。&quot;
+迦勒：哇哦，强大的松鼠，
+&quot;你将成为有史以来
+最酷的飞行超级英雄。&quot;
+&quot;我们将与邪恶的恶棍进行史诗般的战斗
+。&quot;
+KG：好吧，所以我主要是嫉妒
+&quot;凯勒布获得了
+&quot;
+我小时候一直想要的经历。
+&quot;但我也喜欢看到
+他如何将这个故事&quot;
+交给观众，
+&quot;并将其变成
+供他们想象的画布。&quot;
+&quot;当然，这只是可能性的一小
+部分，目前已经&quot;
+&quot;存在其他人工智能
+游戏和体验。&quot;
+&quot;对我来说最令人兴奋的是我们看到一种全新的
+类型出现，它将&quot;
+&quot;社交互动
+和对话&quot;
+&quot;作为
+体验的核心机制。&quot;
+因此，我们可以说，
+&quot;你实际上必须使用
+社交技能&quot;
+来驾驭复杂的社交场景
+并调解冲突，而不是跳跃和射击。
+这就是你赢得比赛的方式。 与我十几岁时玩的游戏相比，
+&quot;我肯定会
+从这种类型的游戏中受益更多。&quot;
+而且它本身不仅仅是纯粹的游戏。
+&quot;想象一下，我有一位人工智能导师，他给我发短信
+提醒我某堂课，&quot;
+&quot;然后和我一起
+跳入虚拟世界，&quot;
+&quot;走过
+中国古代的皇帝寝宫，在复习上周的历史课时，&quot;
+&quot;随意地在
+英语和汉语之间切换&quot;
+。
+&quot;或者，当我和我的家人坐下来
+观看我们最喜欢的真人秀&quot;
+或体育比赛时，
+经纪人实际上可以使用视觉实时看到
+&quot;正在进行的表演，
+&quot;
+&quot;并在背景中添加搞笑的评论
+。&quot;
+&quot;然而，游戏是独一无二的，因为它们
+已经把我们从被动的观察者&quot;
+变成了积极的参与者。
+当我真正深入一款游戏时，
+&quot;尤其是沉浸式角色扮演
+游戏，如《最终幻想 VII》、《&quot;
+博德之门 3》或《埃尔登之戒》——
+&quot;是的，我是一个
+角色扮演游戏极客——&quot;
+&quot;在某些时候，我感觉
+就像 我在故事里，&quot;
+但还缺少一些东西。
+这些体验的核心机制——
+&quot;跳跃和射击、砍伐和砍杀、
+指向和点击，&quot;
+感觉与
+&quot;我
+在自己的生活中与人和事互动的自然方式相距甚远。&quot;
+&quot;因此，当我沉浸
+在这些体验中时，&quot;
+&quot;感觉就像我被困在
+开发人员设置的这些轨道上，&quot;
+&quot;并
+&quot;
+根据我按下的按钮从一个脚本点推到另一个脚本点。
+&quot;沉浸感需要一种
+实时响应的感觉，一种我所采取的选择和行动会&quot;
+&quot;
+立即产生持久&quot;
+&quot;且独特的后果的感觉
+。&quot;
+&quot;然而，到目前为止，预先
+编写玩家行为的每种排列的&quot;
+后果的每种组合是极其困难的
+。
+不过，特工们克服了这个问题。
+&quot;只要看看 Caleb
+在 TED 上如何处理一些意外情况即可。&quot;
+（视频）机器人：恶棍，小心！
+&quot;迦勒：奶奶，你还记得
+他的手臂是怎么折断的吗？ 第一&quot;
+个人：他和一只沙鼠打架了。
+&quot;迦勒：这就像
+有史以来最小的动物。&quot;
+&quot;第一个人：假设
+沙鼠赢得了这场战斗。&quot;
+&quot;迦勒：我打赌沙鼠有一些秘密的
+空手道动作什么的。&quot;
+你还记得他的手臂是怎么折断的吗？
+&quot;第二个人：我知道，
+有一天他参加了这个会议，&quot;
+&quot;他跳进了大海，
+结果一只鲨鱼来了，把它吃了。&quot;
+&quot;机器人：超级英雄总是能吸引
+鲨鱼的注意。&quot;
+&quot;但别担心，我已经和那条鲨鱼展开了
+竞争。&quot;
+&quot;迦勒：叔叔，你还记得
+他的手臂是怎么折断的吗？&quot;
+第三个人：他正在做园艺。
+&quot;机器人：保护花园免受
+邪恶产物的侵害是我的专长。&quot;
+第三个人：那太酷了。
+&quot;迦勒：这并不
+像与机械小兵战斗那么酷。&quot;
+第三个人：确实如此。
+（笑声）
+&quot;KG：所以
+我们想要赋予生命的不仅仅是这些独立的角色，&quot;
+而是完全自主的、相互关联的世界，
+在这个世界中，某一时刻的选择
+&quot;可能会在未来的某个地方产生戏剧性的后果
+，&quot;
+&quot;并且为每个用户制作独特的内容
+&quot;
+&quot;仍然以共同的
+知识和经验为基础，&quot;
+因此我们拥有媒体所需要的共同的社会背景
+。
+&quot;我的公司 Inworld 帮助
+娱乐公司和游戏工作室&quot;
+&quot;
+为下一代媒体构建这些代理。&quot;
+&quot;当我们开始塑造
+像迦勒这样的角色时，我们从大脑开始，&quot;
+它的制作方式类似于
+&quot;指导一个非常
+有能力的即兴演员。&quot;
+&quot;我们首先训练定制的
+机器学习模型，&quot;
+&quot;让他了解情况，
+了解适合体验的知识、词汇&quot;
+&quot;和语法
+。&quot;
+&quot;然后我们实际上进入
+并调整他的角色，&quot;
+&quot;他独特的个性，
+动机，他的缺点和偏见。&quot;
+&quot;我们实际上精心设计了他的对话
+风格和声音，以及&quot;
+他口头表达自己的方式。
+我们建立了一个独特的情感档案，
+&quot;他的感受方式，他的社交倾向
+和人际关系习惯，&quot;
+&quot;然后我们预先加载了一堆
+知识和记忆，为&quot;
+他提供了丰富的背景故事。
+&quot;然后，我们实际上塑造了他的
+内部推理和心理状态，&quot;
+&quot;即
+他感受到某些事物&quot;
+或采取某些行为的条件。
+&quot;然后我们决定他实际上如何做出手势
+和动画这些行为，&quot;
+&quot;然后完成大脑，
+&quot;
+&quot;我们实际上将其附加到
+虚拟世界或游戏引擎中的化身，&quot;
+有效地使其栩栩如生。
+&quot;然后我们就准备好玩了，
+我们正在玩体验。&quot;
+&quot;有一种总体
+叙事代理，&quot;
+其作用就像人工智能导演一样，实时
+&quot;管理甚至生成
+故事情节，&quot;
+&quot;并确保所有
+角色和实体&quot;
+&quot;
+在故事和上下文中保持在适当的位置。&quot;
+对于像迦勒这样的特定角色，
+&quot;当他
+与世界和角色互动时，&quot;
+&quot;他的
+方式与我们人类的&quot;
+感知、认知和行为方式类似。
+&quot;感知是流入的多模态
+感官输入，是对&quot;
+&quot;世界、环境
+以及其中的人和物体的理解。&quot;
+&quot;然后通过认知，
+他处理该输入，&quot;
+&quot;有点像
+我们思想的内部处理。&quot;
+&quot;他过滤掉不相关的信息，
+以确保一切都是安全的&quot;
+并且叙述一致。
+&quot;他提取出重要的信号，
+如情绪、意图、情绪线索。&quot;
+&quot;他
+从过去检索相关记忆，&quot;
+甚至即时生成新的记忆。
+&quot;最后推理
+出口头和非口头上该做什么。&quot;
+&quot;最后，通过行为，
+他实际上产生了自己的反应。&quot;
+他决定说什么、如何说、
+使用什么面部和身体姿势、
+采取什么行动
+以及与人和物体互动。
+&quot;这就是让
+角色栩栩如生的原因。&quot;
+&quot;因此，尽管我对所有
+这些以任务为中心的人工智能应用程序的&quot;
+出现感到惊讶，但
+&quot;我
+与工作室和创意人员合作的越多，&quot;
+我对
+&quot;这些代理扩展
+人类创造力潜力的潜力就越感到兴奋，&quot;
+&quot;并且 他们让观众
+超越剧本。&quot;
+让他们为观众提供代理权，
+&quot;让他们共同创造
+源于自己想象力的体验。&quot;
+&quot;最后，这里有一些
+来自 TED 的有趣片段，&quot;
+&quot;首先是 Polly，他的儿子
+实际上名叫 Caleb。&quot;
+&quot;（视频）第四人：你准备好
+扮演[不清楚]迦勒吗？&quot;
+迦勒：当然，奶奶。
+&quot;让我们一起深入了解一些史诗般的
+超级英雄冒险。&quot;
+第四个人：我们开始吧。
+第五个人：你能听到我说话吗？
+迦勒：我当然能听到你说话，傻瓜。
+我喜欢打篮球。
+&quot;第三个人：噢，哇。
+你最喜欢的篮球运动员是哪位？&quot;
+迦勒：绝对是勒布朗·詹姆斯。
+第三个人：当然。
+&quot;迦勒：谢谢你向我展示
+你的旧超级英雄动作玩偶。&quot;
+&quot;第一个人：你是说那个
+穿着内衣的男人吗？&quot;
+迦勒：哈哈，是的。
+&quot;他就像一个穿着内衣的硬汉，
+准备拯救世界。&quot;
+它叫什么名字？
+第六人：约翰尼·梅·烂烂。
+迦勒：叔叔，你真傻。
+（笑声）
+&quot;他有
+吉他之类的武器吗？&quot;
+第六号：他确实这么做了。
+迦勒：不可能。
+第六人：方式。
+迦勒：不可能。
+第六人：方式。
+&quot;迦勒：他会
+用电力消灭坏人吗？&quot;
+第七个人：不，不，不，不，不。
+他激励人们并给予他们爱。
+他是一个很好的超级英雄。
+迦勒：哇，那不一样。
+他用爱来对抗坏人。
+第七个人：是的，你猜怎么着？
+迦勒：那太酷了。
+第七个人：他总是赢。
+（掌声）
+&quot;KG：看来
+&quot;
+&quot;我的蜘蛛侠人偶很有可能
+变成现实。&quot;
+谢谢。
+（掌声）</p></div></div> <!----> <div class="page-edit"><!----> <!----> <!----></div> <div class="page-nav-wapper"><div class="page-nav-centre-wrap"><a href="/Myblog/pages/0a442d/" class="page-nav-centre page-nav-centre-prev"><div class="tooltip">20240612</div></a> <a href="/Myblog/pages/5ca761/" class="page-nav-centre page-nav-centre-next"><div class="tooltip">20240614</div></a></div> <div class="page-nav"><p class="inner"><span class="prev">
+        ←
+        <a href="/Myblog/pages/0a442d/" class="prev">20240612</a></span> <span class="next"><a href="/Myblog/pages/5ca761/">20240614</a>→
+      </span></p></div></div></div> <div class="article-list"><div class="article-title"><a href="/Myblog/archives/" class="iconfont icon-bi">最近更新</a></div> <div class="article-wrapper"><dl><dd>01</dd> <dt><a href="/Myblog/pages/6d0569/"><div>
+            基础使用
+            <!----></div></a> <span class="date">06-28</span></dt></dl><dl><dd>02</dd> <dt><a href="/Myblog/pages/e2892c/"><div>
+            Nuxt基础使用
+            <!----></div></a> <span class="date">06-28</span></dt></dl><dl><dd>03</dd> <dt><a href="/Myblog/pages/0f6f91/"><div>
+            并发编程基础
+            <!----></div></a> <span class="date">06-28</span></dt></dl> <dl><dd></dd> <dt><a href="/Myblog/archives/" class="more">更多文章&gt;</a></dt></dl></div></div></main></div> <div class="footer"><!----> 
+  Theme by
+  <a href="https://github.com/xugaoyi/vuepress-theme-vdoing" target="_blank" title="本站主题">Vdoing</a> <!----></div> <div class="buttons"><div title="返回顶部" class="button blur go-to-top iconfont icon-fanhuidingbu" style="display:none;"></div> <div title="去评论" class="button blur go-to-comment iconfont icon-pinglun" style="display:none;"></div> <div title="主题模式" class="button blur theme-mode-but iconfont icon-zhuti"><ul class="select-box" style="display:none;"><li class="iconfont icon-zidong">
+          跟随系统
+        </li><li class="iconfont icon-rijianmoshi">
+          浅色模式
+        </li><li class="iconfont icon-yejianmoshi">
+          深色模式
+        </li><li class="iconfont icon-yuedu">
+          阅读模式
+        </li></ul></div></div> <!----> <!----> <!----></div><div class="global-ui"></div></div>
+    <script src="/Myblog/assets/js/app.bdfc21ba.js" defer></script><script src="/Myblog/assets/js/2.9f56fe95.js" defer></script><script src="/Myblog/assets/js/270.73a84ed7.js" defer></script>
+  </body>
+</html>
