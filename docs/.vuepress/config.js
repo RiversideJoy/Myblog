@@ -18,6 +18,12 @@ module.exports = {
   themeConfig: {
     nav,
     sidebar: 'structuring',
+    lastUpdated: 'Last Updated', // string | boolean 最后更新时间
+    // 线上编辑笔记
+    repo: 'xugaoyi/vuepress-theme-vdoing', // Github仓库地址
+    docsDir: 'docs', // .md文件放在了docs目录下
+    editLinks: true, // 启用编辑链接
+    editLinkText: '编辑',
   },
   // 使目录栏支持h2~h6
   markdown: {
